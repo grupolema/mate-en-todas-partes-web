@@ -1,24 +1,7 @@
-# web-tpl
-Template project for websites and web apps.
+# Mathematics is Everywhere website
 
-Basic gulpfile with SASS, GULP and Babel/Browserify compilation of Javascript.
-
-## How to use
-
-**Don't fork, don't clone.**
-
-0. Download the latest release and use it as basis for your new repository.
-0. Modify package.json and set the first four items
-    - name
-    - version
-    - description
-    - repository
-    - author
-0. Modify `src/pug/config.json` setting the site name, description and URL.
-0. Change this README file but keep the **Compiling** section below for reference. 
-
-**Note:** This project does not use semver as future versions might evolve breaking backwards compatibility as new tools 
-and standard practices are incorporated.
+A mini website for the "Mathematics is Everywhere" theme of IDM 2020. It presents various human activities
+in a grid and explains their relationship with mathematics via short texts.
 
 ## Compilation
 

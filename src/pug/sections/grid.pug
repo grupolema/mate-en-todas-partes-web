@@ -1,0 +1,16 @@
+.container
+  .row.row-cols-xl-5.row-cols-lg-4.row-cols-md-3.row-cols-sm-2.row-cols-1
+    each application in applications(lang)
+      .col.px-2
+        .application.my-2
+          a(href!=`#${application.id}`)
+            img.img-fluid(src=`assets/img/applications/${application.id}.jpg`)
+            .overlay
+              .title
+                != application.title
+script
+  | if (window.MathsEverywhere === undefined) {
+  |   window.MathsEverywhere = {};
+  | }
+  != 'window.MathsEverywhere.applications = ' + JSON.stringify(applications(lang)) + ';'
+

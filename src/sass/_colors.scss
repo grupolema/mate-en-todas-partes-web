@@ -4,6 +4,8 @@ $color-white-real: #fff;
 $color-black: #666;
 $color-white: $color-white-real;
 
+$color-gray-light: #ddd;
+
 @mixin neg {
   -webkit-font-smoothing: antialiased;
 }

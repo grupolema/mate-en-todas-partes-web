@@ -21,4 +21,59 @@ body.lock-position {
   width: 100%;
   position: fixed; }
 
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.3; }
+
+.application {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-color: #ddd;
+  overflow: hidden; }
+  .application > a {
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%; }
+    .application > a:hover .overlay {
+      bottom: 0%; }
+  .application .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -100%;
+    transition: bottom 0.35s ease-out;
+    pointer-events: none; }
+    .application .overlay .title {
+      display: inline-block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.65);
+      color: white;
+      font-weight: 700;
+      min-height: 60px; }
+
+.modal-title {
+  font-size: 1.6em;
+  font-weight: 700; }
+
+.modal-body {
+  font-size: 1.1em;
+  line-height: 1.4; }
+  .modal-body .container-fluid {
+    padding-left: 0;
+    padding-right: 0; }
+  .modal-body .modal-body-text {
+    margin-bottom: 1em; }
+
+.modal-body-links a {
+  display: block;
+  margin-bottom: 0.4em;
+  font-size: 0.85em; }
+
 /*# sourceMappingURL=default.css.map */

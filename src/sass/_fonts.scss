@@ -1,5 +1,9 @@
 $font-stack-ubuntu: Ubuntu, "Trebuchet MS", Helvetica, Arial, sans-serif;
 
+@mixin lato {
+  font-family: 'Lato', sans-serif;
+}
+
 @mixin ubuntuLight {
   font-family: $font-stack-ubuntu;
   font-weight: 300;

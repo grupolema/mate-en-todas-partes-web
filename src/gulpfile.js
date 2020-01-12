@@ -9,7 +9,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
 const touch = require('gulp-touch-fd');
-const pugData = require('./pug/data.js');
+const pugLib = require('./pug/lib.js');
 
 const OUTPUT_DIR = '..';
 
@@ -34,7 +34,7 @@ function html() {
   return gulp.src(paths.html.src)
     .pipe(pug({
       pretty: true,
-      data: pugData,
+      data: pugLib,
     })).pipe(rename({
       extname: '.html',
     })).pipe(

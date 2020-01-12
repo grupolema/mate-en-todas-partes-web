@@ -1,0 +1,26 @@
+.modal-title {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.modal-body {
+  font-size: 1.1em;
+  line-height: 1.4;
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .modal-body-text {
+    margin-bottom: 1em;
+  }
+}
+
+.modal-body-links {
+  a {
+    display: block;
+    margin-bottom: 0.4em;
+    font-size: 0.85em;
+  }
+}

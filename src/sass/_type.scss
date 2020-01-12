@@ -1,10 +1,10 @@
 $base-font-size: 16px;
-$base-line-height: 1.5;
+$base-line-height: 1.3;
 
 @mixin regularText {
-  @include ubuntu;
+  @include lato;
 }
 
 @mixin headingText {
-  @include ubuntuBold;
+  @include lato;
 }

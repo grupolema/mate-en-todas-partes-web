@@ -61,3 +61,8 @@ The building scripts in `src/pug/lib.js` read the data files from the `data` dir
 
 To add a new language simply create or modify a pug file to initialize the right language code,
 add the translation file to the data directory and then run `gulp html` to build the HTML.
+
+### Item ordering
+
+The `src/pug/config.json` file defines an "order" property which is used to sort the applications in the
+home grid. 

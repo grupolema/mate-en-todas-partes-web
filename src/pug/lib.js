@@ -39,6 +39,18 @@ function applications(language) {
         answer.push(Object.assign({}, { id }, item));
       }
     });
+  // Sort based on config
+  const positions = {};
+  config.order.forEach((id, i) => {
+    positions[id] = i + 1;
+  });
+  answer.sort((a, b) => {
+    const posA = positions[a.id] || 999999;
+    const posB = positions[b.id] || 999999;
+    if (posA < posB) return -1;
+    if (posA > posB) return 1;
+    return 0;
+  });
   return answer;
 }
 

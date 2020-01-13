@@ -6,6 +6,18 @@
     "@idm2020": {
       "title": "International Day of Mathematics 2020"
     },
+    "@footer_imu": {
+      "title": "The International Day of Mathematics is a project led by the International Mathematical Union."
+    },
+    "@footer_kts": {
+      "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+    },
+    "@impressum": {
+      "title": "Impressum"
+    },
+    "@privacy_policy": {
+      "title": "Privacy policy"
+    },
     "epidemics_analysis": {
       "title": "Analyse des épidémies",
       "body": "Lorsqu'une nouvelle épidémie commence, on peut craindre qu'elle ne s'arrête pas, car il y a toujours de nouveaux cas. Ce n'est pas ce que disent les mathématiques. Le nombre important est le rapport de reproduction, R_0, qui correspond au nombre moyen d'individus infectés par chaque personne infectieuse. Si R_0 <1, alors l'épidémie s’éteint, tandis qu'elle se propage si R_0> 1. La connaissance de R_0 guide la stratégie de contrôle de l'épidémie. En particulier, en cas de ressources limitées (par exemple pas assez de vaccins pour tout le monde), l'objectif est d'utiliser ces ressources pour faire baisser R_0 en dessous de 1.",

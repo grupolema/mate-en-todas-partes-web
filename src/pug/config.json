@@ -2,6 +2,11 @@
   "siteName": "Mathematics is Everywhere | International Day of Mathematics 2020",
   "siteDescription": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look.",
   "siteURL": "http://everywhere.idm314.org",
+  "langSwitcher": {
+    "en": "English",
+    "fr": "French"
+  },
+  "langSwitcherDefault": "en",
   "order": [
     "discovering_core",
     "patterns_nature",

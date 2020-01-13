@@ -54,6 +54,14 @@ function applications(language) {
   return answer;
 }
 
+function langSwitcher() {
+  return Object.entries(config.langSwitcher).map(([code, name]) => ({
+    code,
+    name,
+    path: code === config.langSwitcherDefault ? 'index.html' : `index_${code}.html`,
+  }));
+}
+
 module.exports = {
   str,
   setLang,
@@ -61,4 +69,5 @@ module.exports = {
   pageTitle,
   config,
   applications,
+  langSwitcher
 };

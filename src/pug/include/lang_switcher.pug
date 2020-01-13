@@ -1,0 +1,6 @@
+.lang-switcher.dropdown
+  button.btn.dropdown-toggle(type="button", data-toggle="dropdown")
+  .dropdown-menu
+    each item in langSwitcher()
+      a.dropdown-item(href!=item.path)
+        != item.name

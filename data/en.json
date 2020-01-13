@@ -6,6 +6,18 @@
     "@idm2020": {
       "title": "International Day of Mathematics 2020"
     },
+    "@footer_imu": {
+      "title": "The International Day of Mathematics is a project led by the International Mathematical Union."
+    },
+    "@footer_kts": {
+      "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+    },
+    "@impressum": {
+      "title": "Impressum"
+    },
+    "@privacy_policy": {
+      "title": "Privacy policy"
+    },
     "epidemics_analysis": {
       "title": "Epidemics Analysis",
       "body": "When a new epidemic starts one can fear that it will not stop since there are always new cases. This is not what mathematics says. The important quantity is the reproductive ratio, R_0, which corresponds to the mean number of individuals infected by each infectious person. If R_0 < 1, then the epidemic dies, while it spreads if R_0 > 1. The knowledge of R_0 guides the strategy to control the epidemic. In particular, in case of limited resources (for instance not enough vaccines for everyone), the goal is to use these resources to decrease R_0 below 1.",

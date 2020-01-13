@@ -45,3 +45,19 @@ After it runs succesfuly you can compile as needed:
     ```
     yarn run build
     ```
+
+## HTML generation
+
+The HTML content is built dynamically by pug out of data files in different languages.
+
+Each of the main pug files selects the language it'll be in with in its `init` block:
+
+```
+block init
+  - lang = 'en';
+```
+
+The building scripts in `src/pug/lib.js` read the data files from the `data` directory.
+
+To add a new language simply create or modify a pug file to initialize the right language code,
+add the translation file to the data directory and then run `gulp html` to build the HTML.

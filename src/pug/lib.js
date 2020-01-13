@@ -1,6 +1,9 @@
+const path = require('path');
+const fs = require('fs');
 const config = require('./config.json');
 const localizedStrings = require('./strings.json');
-const data = require('../../data.json');
+
+const dataDirectory = '../data';
 
 let lang = 'en';
 
@@ -27,14 +30,16 @@ function pageTitle(title) {
 }
 
 function applications(language) {
-  return data.applications
-    .filter(each => each.title[language] !== undefined && each.id !== 'main')
-    .map(each => ({
-      id: each.id,
-      title: each.title[language],
-      body: each.body[language],
-      links: each.links[language] || each.links.en,
-    }));
+  const answer = [];
+  const dataFilePath = path.join(dataDirectory, `${language}.json`);
+  const translation = JSON.parse(fs.readFileSync(dataFilePath));
+  Object.entries(translation.texts)
+    .forEach(([id, item]) => {
+      if (id.substr(0, 1) !== '@') {
+        answer.push(Object.assign({}, { id }, item));
+      }
+    });
+  return answer;
 }
 
 module.exports = {
@@ -43,5 +48,5 @@ module.exports = {
   getLang,
   pageTitle,
   config,
-  applications
+  applications,
 };

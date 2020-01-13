@@ -1,42 +1,53 @@
-/* eslint-disable no-console */
+/* eslint-disable no-console,no-param-reassign */
 const fs = require('fs').promises;
-const { resolve } = require('path');
+const path = require('path');
 const GSheeter = require('@imaginary-maths/gsheeter');
 const config = require('./config.json');
 const credentials = require('./client_secret.json');
 
-const destinationPath = '../../data.json';
+const destinationPath = '../../data';
 
 
 GSheeter.get(config.spreadsheetID, config.worksheetID, { credentials })
   .then((items) => {
-    const applications = new Map();
+    const translations = {};
+    config.languages.forEach((lang) => {
+      translations[lang] = {};
+    });
     items
-      .filter(item => !(config.ignoredApplications.includes(item.id)))
+      .filter(item => !(config.ignoredIDs.includes(item.id)))
       .forEach((item) => {
-        if (!applications.has(item.id)) {
-          applications.set(item.id, {
-            id: item.id,
-          });
-        }
-        const application = applications.get(item.id);
-        if (application[item.field] === undefined) {
-          application[item.field] = {};
-        }
-        config.languages.forEach((lang) => {
-          if (item[lang] !== undefined && item[lang].trim().length > 0) {
-            application[item.field][lang] = item[lang].trim();
+        Object.entries(translations).forEach(([lang, translation]) => {
+          if (translation[item.id] === undefined) {
+            translation[item.id] = {};
+          }
+          const object = translation[item.id];
+          if (item[lang].trim().length > 0) {
+            object[item.field] = item[lang].trim();
+          } else {
+            object[item.field] = item.en.trim();
           }
         });
       });
 
-    return applications;
+    return translations;
   })
-  .then((applications) => {
-    return JSON.stringify({
-      applications: [...applications.values()],
-    }, null, 2);
-  }).then(jsonData => fs.writeFile(destinationPath, jsonData))
+  .then((translations) => {
+    const filePromises = [];
+    Object.entries(translations).forEach(([lang, translation]) => {
+      const filename = path.resolve(path.join(destinationPath, `${lang}.json`));
+      const jsonData = JSON.stringify({
+        texts: translation,
+      }, null, 2);
+
+      filePromises.push(
+        fs.writeFile(filename, jsonData).then(() => {
+          console.log(`Data written to ${filename}`);
+        })
+      );
+    });
+    return Promise.all(filePromises);
+  })
   .then(() => {
-    console.log(`Data written to ${resolve(destinationPath)}`);
+    console.log('Done.');
   });

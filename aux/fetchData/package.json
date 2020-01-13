@@ -1,7 +1,7 @@
 {
   "name": "maths-everywhere-web-fetch-data",
   "version": "0.1.0",
-  "description": "External data fetching for the Mathematics is Everywhere website",
+  "description": "Data file generation from a Google Sheet for the Mathematics is Everywhere website",
   "repository": "github:IMAGINARY/my-repository",
   "author": "Eric Londaits <eric.londaits@imaginary.org>",
   "private": true,

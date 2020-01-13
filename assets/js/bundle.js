@@ -45,6 +45,12 @@ function () {
 
       if (application.links) {
         var links = application.links.split('\n').map(function (each) {
+          if (each.substr(0, 'http'.length) !== 'http') {
+            return "http://".concat(each);
+          }
+
+          return each;
+        }).map(function (each) {
           return $('<a>').attr('href', each).attr('target', '_blank').text(each);
         });
         this.$bodyLinks.append(links);

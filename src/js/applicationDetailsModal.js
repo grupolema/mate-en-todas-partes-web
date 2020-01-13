@@ -41,10 +41,18 @@ export default class ApplicationDetailsModal {
     this.$bodyText.html(application.body);
     this.$bodyLinks.empty();
     if (application.links) {
-      const links = application.links.split('\n').map(each => $('<a>')
-        .attr('href', each)
-        .attr('target', '_blank')
-        .text(each));
+      const links = application.links
+        .split('\n')
+        .map((each) => {
+          if (each.substr(0, 'http'.length) !== 'http') {
+            return `http://${each}`;
+          }
+          return each;
+        })
+        .map(each => $('<a>')
+          .attr('href', each)
+          .attr('target', '_blank')
+          .text(each));
       this.$bodyLinks.append(links);
     }
 

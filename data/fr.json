@@ -1,10 +1,13 @@
 {
   "texts": {
-    "@main": {
-      "title": "Mathematics is Everywhere"
+    "@title": {
+      "title": "Les mathématiques ​sont partout"
     },
     "@idm2020": {
-      "title": "International Day of Mathematics 2020"
+      "title": "Journée Internationale des Mathématiques 2020"
+    },
+    "@description": {
+      "title": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look."
     },
     "@footer_imu": {
       "title": "The International Day of Mathematics is a project led by the International Mathematical Union."

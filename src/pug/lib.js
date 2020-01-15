@@ -1,21 +1,34 @@
 const path = require('path');
 const fs = require('fs');
 const config = require('./config.json');
-const localizedStrings = require('./strings.json');
 
 const dataDirectory = '../data';
 
 let lang = 'en';
+let localizedData = null;
+let localizedStrings = null;
 
 function str(id) {
-  if (localizedStrings[id] !== undefined && localizedStrings[id][lang] !== undefined) {
-    return localizedStrings[id][lang];
+  if (localizedStrings[id] !== undefined) {
+    return localizedStrings[id];
   }
   return id;
 }
 
 function setLang(code) {
   lang = code;
+
+  const dataFilePath = path.join(dataDirectory, `${code}.json`);
+  localizedData = JSON.parse(fs.readFileSync(dataFilePath));
+  localizedStrings = {};
+  Object.entries(localizedData.texts).forEach(([id, data]) => {
+    if (id.substr(0, 1) === '@') {
+      localizedStrings[id.substr(1)] = data.title;
+    }
+  });
+
+  config.siteName = `${str('title')} | ${str('idm2020')}`;
+  config.siteDescription = str('description');
 }
 
 function getLang() {
@@ -29,11 +42,9 @@ function pageTitle(title) {
   return `${title} - ${config.siteName}`;
 }
 
-function applications(language) {
+function getApplications() {
   const answer = [];
-  const dataFilePath = path.join(dataDirectory, `${language}.json`);
-  const translation = JSON.parse(fs.readFileSync(dataFilePath));
-  Object.entries(translation.texts)
+  Object.entries(localizedData.texts)
     .forEach(([id, item]) => {
       if (id.substr(0, 1) !== '@') {
         answer.push(Object.assign({}, { id }, item));
@@ -68,6 +79,6 @@ module.exports = {
   getLang,
   pageTitle,
   config,
-  applications,
-  langSwitcher
+  getApplications,
+  langSwitcher,
 };

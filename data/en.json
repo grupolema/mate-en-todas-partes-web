@@ -15,6 +15,9 @@
     "@footer_kts": {
       "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
     },
+    "@main_site": {
+      "title": "Main Website"
+    },
     "@impressum": {
       "title": "Impressum"
     },

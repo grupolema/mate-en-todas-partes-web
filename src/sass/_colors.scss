@@ -1,10 +1,56 @@
 $color-black-real: #000;
 $color-white-real: #fff;
 
-$color-black: #666;
+$color-black: $color-black-real;
 $color-white: $color-white-real;
 
 $color-gray-light: #ddd;
+
+
+$color-blue-dark: #007bff;
+
+$color-indigo: #0066b3;
+$color-green: #00a651;
+$color-yellow: #ffcb05;
+$color-red: #ed1c24;
+$color-blue: #00aeef;
+$color-purple: #7670b3;
+$color-green-light: #a6ce39;
+$color-fucsia: #c657a0;
+$color-orange: #f58220;
+
+$color-yellow-light: #ffda82;
+$color-purple-light: #cecaf1;
+$color-blue-light: #cddcec;
+
+$color-orange-text: #e26d08;
+
+$color-gray: #919191;
+$color-gray-light: #ececec;
+
+$colors-idm:
+        $color-indigo,
+        $color-green,
+        $color-yellow,
+        $color-red,
+        $color-blue,
+        $color-purple,
+        $color-green-light,
+        $color-fucsia,
+        $color-orange
+;
+
+$color-1: $color-indigo;
+$color-2: $color-green;
+$color-3: $color-yellow;
+$color-4: $color-red;
+$color-5: $color-blue;
+$color-6: $color-purple;
+$color-7: $color-green-light;
+$color-8: $color-fucsia;
+$color-9: $color-orange;
+
+$color-link: $color-blue-dark;
 
 @mixin neg {
   -webkit-font-smoothing: antialiased;

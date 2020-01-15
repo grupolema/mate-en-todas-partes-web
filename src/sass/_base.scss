@@ -2,4 +2,5 @@ body {
   @include regularText;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  color: $color-black;
 }

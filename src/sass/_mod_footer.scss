@@ -1,0 +1,91 @@
+
+.section-footer {
+  border-top: 7px solid $color-purple;
+  margin-top: 4em;
+  padding: 2em 0;
+
+  a {
+    color: $color-black;
+    &:hover {
+      color: $color-black;
+    }
+  }
+
+  .col-logos-r {
+    @include media-breakpoint-up(md) {
+      text-align: right;
+    }
+    @include media-breakpoint-down(sm) {
+      margin-top: 2em;
+    }
+  }
+
+  .footer-logo-row {
+    display: block;
+    height: 140px;
+    margin-bottom: 1em;
+    vertical-align: middle;
+    position: relative;
+    &:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%;
+    }
+
+    @include media-breakpoint-down(sm) {
+      height: auto;
+      vertical-align: top;
+    }
+  }
+
+  .footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    img {
+      display: block;
+    }
+
+    @include media-breakpoint-down(sm) {
+      vertical-align: top;
+      margin-bottom: 1em;
+    }
+  }
+
+  .logo-imu img {
+    height: 140px;
+    width: 140px;
+  }
+
+  .logo-kts {
+    margin-top: 1%;
+    width: 54%;
+    max-width: 300px;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .logo-imaginary {
+    margin-right: 8%;
+    width: 38%;
+    max-width: 223px;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 2em;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

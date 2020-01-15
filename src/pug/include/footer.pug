@@ -1,0 +1,40 @@
+.section.section-footer
+  .container
+    .row
+      .col-md-4
+        .footer-logo-row
+          a.footer-logo.logo-imu(href='https://www.mathunion.org/')
+            img(src='assets/img/logo-imu.png', alt="International Mathematical Union")
+        p
+          | The International Day of Mathematics is a project led by the
+          |
+          a(href='https://www.mathunion.org/')
+            | International Mathematical Union.
+      .col-md-8.col-logos-r
+        .footer-logo-row
+          a.footer-logo.logo-imaginary(href='https://www.imaginary.org/')
+            img(src='assets/img/logo-imaginary-footer.png' alt='IMAGINARY')
+          a.footer-logo.logo-kts(href='https://www.klaus-tschira-stiftung.de/')
+            img(src='assets/img/logo-kts-footer.png' alt='Klaus Tschira Stiftung gemeinnützige GmbH')
+        p
+          | The IDM website was created by
+          |
+          a(href='https://www.imaginary.org') IMAGINARY
+          |
+          | with support from the
+          |
+          a(href='https://www.klaus-tschira-stiftung.de/') Klaus&nbsp;Tschira&nbsp;Stiftung
+          | .
+    .row
+      nav.nav
+        a.nav-link(href='https://www.idm314.org/')
+          != str('main_site')
+        a.nav-link(href='https://www.idm314.org/impressum.html')
+          != str('impressum')
+        a.nav-link(href='https://www.idm314.org/privacy_policy.html')
+          != str('privacy_policy')
+    .row
+      .col
+        p.copyright
+          | &copy; 2019 International Mathematical Union
+

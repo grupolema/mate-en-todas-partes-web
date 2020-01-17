@@ -11,7 +11,7 @@ const rename = require('gulp-rename');
 const touch = require('gulp-touch-fd');
 const pugLib = require('./pug/lib.js');
 
-const OUTPUT_DIR = '..';
+const OUTPUT_DIR = '../dist';
 
 const JS_BUNDLE_NAME = 'bundle';
 

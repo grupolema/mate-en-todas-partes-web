@@ -36,8 +36,15 @@ function () {
   }
 
   _createClass(ApplicationDetailsModal, [{
+    key: "formatURL",
+    value: function formatURL(url) {
+      return url.replace(/\//g, '/<wbr>').replace(/_/g, '_<wbr>').replace(/\./g, '.<wbr>');
+    }
+  }, {
     key: "show",
     value: function show(application) {
+      var _this2 = this;
+
       this.$titleContainer.html(application.title);
       this.$bodyImage.attr('src', "assets/img/applications/".concat(application.id, ".jpg"));
       this.$bodyText.html(application.body);
@@ -51,7 +58,7 @@ function () {
 
           return each;
         }).map(function (each) {
-          return $('<li>').append($('<a>').attr('href', each).attr('target', '_blank').text(each));
+          return $('<li>').append($('<a>').attr('href', each).attr('target', '_blank').html(_this2.formatURL(each)));
         });
         this.$bodyLinks.append($('<ul class="colored">').append(links));
       }

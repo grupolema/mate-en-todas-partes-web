@@ -35,6 +35,13 @@ export default class ApplicationDetailsModal {
     });
   }
 
+  formatURL(url) {
+    return url
+      .replace(/\//g, '/<wbr>')
+      .replace(/_/g, '_<wbr>')
+      .replace(/\./g, '.<wbr>');
+  }
+
   show(application) {
     this.$titleContainer.html(application.title);
     this.$bodyImage.attr('src', `assets/img/applications/${application.id}.jpg`);
@@ -53,7 +60,7 @@ export default class ApplicationDetailsModal {
           .append($('<a>')
             .attr('href', each)
             .attr('target', '_blank')
-            .text(each)));
+            .html(this.formatURL(each))));
       this.$bodyLinks.append($('<ul class="colored">').append(links));
     }
 

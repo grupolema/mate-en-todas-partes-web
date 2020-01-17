@@ -9,9 +9,9 @@ export default class ApplicationDetailsModal {
     this.$bodyContainer = $('<div class="modal-body">')
       .append($('<div class="container-fluid">')
         .append($('<div class="row">')
-          .append($('<div class="col">')
+          .append($('<div class="col-lg col-md-12">')
             .append(this.$bodyImage))
-          .append($('<div class="col">')
+          .append($('<div class="col-lg col-md-12">')
             .append(this.$bodyText)))
         .append($('<div class="row">')
           .append($('<div class="col">')
@@ -49,11 +49,12 @@ export default class ApplicationDetailsModal {
           }
           return each;
         })
-        .map(each => $('<a>')
-          .attr('href', each)
-          .attr('target', '_blank')
-          .text(each));
-      this.$bodyLinks.append(links);
+        .map(each => $('<li>')
+          .append($('<a>')
+            .attr('href', each)
+            .attr('target', '_blank')
+            .text(each)));
+      this.$bodyLinks.append($('<ul class="colored">').append(links));
     }
 
     if (!this.visible) {

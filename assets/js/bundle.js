@@ -25,7 +25,7 @@ function () {
     this.$bodyImage = $('<img class="modal-body-image img-fluid mb-4">');
     this.$bodyText = $('<div class="modal-body-text">');
     this.$bodyLinks = $('<div class="modal-body-links">');
-    this.$bodyContainer = $('<div class="modal-body">').append($('<div class="container-fluid">').append($('<div class="row">').append($('<div class="col">').append(this.$bodyImage)).append($('<div class="col">').append(this.$bodyText))).append($('<div class="row">').append($('<div class="col">').append(this.$bodyLinks))));
+    this.$bodyContainer = $('<div class="modal-body">').append($('<div class="container-fluid">').append($('<div class="row">').append($('<div class="col-lg col-md-12">').append(this.$bodyImage)).append($('<div class="col-lg col-md-12">').append(this.$bodyText))).append($('<div class="row">').append($('<div class="col">').append(this.$bodyLinks))));
     this.$modal = $('<div class="modal fade">').append($('<div class="modal-dialog modal-lg">').append($('<div class="modal-content">').append($('<div class="modal-header">').append(this.$titleContainer).append($('<button type="button" class="close" data-dismiss="modal">').append($('<span>').html('&times;')))).append(this.$bodyContainer)));
     this.$modal.on('hidden.bs.modal', function () {
       _this.visible = false;
@@ -51,9 +51,9 @@ function () {
 
           return each;
         }).map(function (each) {
-          return $('<a>').attr('href', each).attr('target', '_blank').text(each);
+          return $('<li>').append($('<a>').attr('href', each).attr('target', '_blank').text(each));
         });
-        this.$bodyLinks.append(links);
+        this.$bodyLinks.append($('<ul class="colored">').append(links));
       }
 
       if (!this.visible) {
@@ -76,6 +76,8 @@ exports["default"] = ApplicationDetailsModal;
 
 },{}],2:[function(require,module,exports){
 "use strict";
+
+require("./responsiveMenu");
 
 var _applicationDetailsModal = _interopRequireDefault(require("./applicationDetailsModal"));
 
@@ -120,7 +122,7 @@ $(window).on('hashchange', function () {
   update();
 });
 update(); // Change the internal links so instead of the default internal
-// navegation they change the hash via "location.replace". This
+// navigation they change the hash via "location.replace". This
 // changes how navigation history is created. If you
 // click on an application, close it, open another, close it, etc.
 // and then navigate via the back button several times you'll
@@ -135,4 +137,17 @@ $('.application a').each(function (i, appLink) {
   });
 });
 
-},{"./applicationDetailsModal":1}]},{},[2]);
+},{"./applicationDetailsModal":1,"./responsiveMenu":3}],3:[function(require,module,exports){
+"use strict";
+
+var $container = $('.header-col-title');
+var $menu = $('<div class="dropdown-menu dropdown-menu-right"></div>');
+var $element = $('<div class="menu-responsive dropdown d-xl-none"></div>').append($('<button class="btn dropdown-toggle" type="button" data-toggle="dropdown">')).append($menu);
+$('.header-menu a').each(function (i, element) {
+  $(element).clone().addClass('dropdown-item').appendTo($menu);
+});
+$menu.append($('<div class="dropdown-divider"></div>'));
+$('.lang-switcher .dropdown-item').clone().appendTo($menu);
+$container.append($element);
+
+},{}]},{},[2]);

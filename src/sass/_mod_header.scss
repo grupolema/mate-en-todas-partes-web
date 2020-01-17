@@ -1,0 +1,132 @@
+@import "node_modules/bootstrap/scss/mixins/grid";
+
+.square-height {
+  height: 0;
+  padding-bottom: 100%;
+}
+
+.col5 {
+  @include make-col(1, 2);
+  @include media-breakpoint-only(xl) {
+    @include make-col(1, 5);
+  }
+  @include media-breakpoint-only(lg) {
+    @include make-col(1, 4);
+  }
+  @include media-breakpoint-only(md) {
+    @include make-col(1, 3);
+  }
+}
+
+.col5-double {
+  @include make-col(2, 5);
+  .square-height { padding-bottom: 48%; }
+}
+
+.col5-xl-double {
+  @include media-breakpoint-only(xl) {
+    @include make-col(2, 5);
+    .square-height { padding-bottom: 48%; }
+  }
+}
+
+.col5-lg-double {
+  @include media-breakpoint-only(lg) {
+    @include make-col(2, 4);
+    .square-height { padding-bottom: 48%; }
+  }
+}
+
+.col5-md-double {
+  @include media-breakpoint-only(md) {
+    @include make-col(2, 3);
+    .square-height { padding-bottom: 48%; }
+  }
+}
+
+.header {
+  margin-top: 1em;
+}
+
+.header-col-title {
+  color: $color-white;
+  position: relative;
+
+  .square-height {
+    background-color: $color-fucsia;
+  }
+
+  h1 {
+    position: absolute;
+    padding: 22px 20px;
+    bottom: 0;
+    @include latoBold;
+    text-transform: uppercase;
+    font-size: 2em;
+    line-height: 1.1;
+    @include media-breakpoint-down(md) {
+      font-size: 1.3em;
+    }
+    @include media-breakpoint-down(sm) {
+      padding: 10px;
+      font-size: 1.1em;
+    }
+  }
+}
+
+.header-col-logo {
+  position: relative;
+  .idm-logo {
+    position: absolute;
+    bottom: 10px;
+    left: 4%;
+    width: 92%;
+  }
+}
+
+.header-col-util {
+  position: relative;
+  .header-menu {
+    position: relative;
+    padding-top: 5px;
+    a {
+      display: block;
+      color: $color-black;
+    }
+  }
+
+  .square-height {
+
+  }
+
+  .lang-switcher {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.menu-responsive {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+
+  .dropdown-item {
+    white-space: normal;
+    min-width: 300px;
+  }
+
+  .dropdown-toggle {
+    &:after {
+      display: none;
+    }
+
+    background-image: url('../img/bars-solid-white.svg');
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    height: 38px;
+    width: 38px;
+    margin: 8px;
+  }
+}

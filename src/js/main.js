@@ -1,5 +1,6 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
 // import 'core-js/stable'; // ES Polyfills, include only if needed... around 200k minimized!
+import './responsiveMenu';
 import ApplicationDetailsModal from './applicationDetailsModal';
 
 if (window.MathsEverywhere.applications) {
@@ -41,7 +42,7 @@ $(window).on('hashchange', () => {
 update();
 
 // Change the internal links so instead of the default internal
-// navegation they change the hash via "location.replace". This
+// navigation they change the hash via "location.replace". This
 // changes how navigation history is created. If you
 // click on an application, close it, open another, close it, etc.
 // and then navigate via the back button several times you'll

@@ -1,1 +1,17 @@
-include lang_switcher
+.header
+  .container
+    .row.row-cols-xl-5.row-cols-lg-4.row-cols-md-3.row-cols-2.row-header
+      .col5.col5-xl-double.col5-lg-double.col5-md-double.px-2.mb-2.header-col-logo
+        .square-height
+          .idm-logo
+            img.img-fluid(src!='assets/img/logos/idm-' + getLang() + '-logo-color.svg', alt!=str('idm2020'))
+      .col5.col5-xl-double.col5-lg-double.px-2.mb-2.header-col-title
+        .square-height
+          h1.site-title
+            .align-text-bottom
+              != str('title')
+      .col5.d-none.d-xl-block.px-2.mb-2.header-col-util
+        .square-height
+          .header-menu
+            a(href='http://www.idm314.org/') Learn more about the International&nbsp;day&nbsp;of Mathematics
+          include lang_switcher

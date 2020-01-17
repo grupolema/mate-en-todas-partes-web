@@ -2,10 +2,16 @@
   button {
     background-image: url('../img/language-solid.svg');
     background-size: contain;
-    background-position: left center;
+    background-position: 5px center;
     background-repeat: no-repeat;
     height: 38px;
-    padding-left: 50px;
-    margin-left: 10px;
+    padding-left: 55px;
+    margin-left: 5px;
+    padding-right: 5px;
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      background-color: #e4e4e4;
+    }
   }
 }

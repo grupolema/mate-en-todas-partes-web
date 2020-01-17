@@ -4,28 +4,28 @@
       "title": "Les mathématiques ​sont partout"
     },
     "@idm2020": {
-      "title": "Journée Internationale des Mathématiques 2020"
+      "title": "Journée internationale des mathématiques 2020"
     },
     "@learn_more": {
-      "title": "Learn more about the International day of Mathematics"
+      "title": "Plus d'information sur la Journée internationale des mathématiques"
     },
     "@description": {
-      "title": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look."
+      "title": "Célébrez la Journée internationale des mathématiques en découvrant les mathématiques partout autour de vous."
     },
     "@footer_imu": {
-      "title": "The International Day of Mathematics is a project led by the International Mathematical Union."
+      "title": "La Journée internationale des mathématiques est un projet de l'Union mathématique internationale."
     },
     "@footer_kts": {
-      "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+      "title": "Le site web de la JIM a été créé par IMAGINARY avec le soutien financier de la Fondation Klaus Tschira."
     },
     "@footer_mathigon": {
-      "title": "Concept and some text created by Philipp Legner (Mathigon)"
+      "title": "Concept et du texte créé par Philippe Legner (Mathigon)"
     },
     "@footer_license": {
-      "title": "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+      "title": "Sous Licence Creative Commons Attribution-ShareAlike 4.0 International"
     },
     "@main_site": {
-      "title": "Main Website"
+      "title": "Site web principal"
     },
     "@impressum": {
       "title": "Impressum"
@@ -91,7 +91,7 @@
     "computer_games": {
       "title": "Jeux à l'ordinateur",
       "body": "De nombreux jeux informatiques utilisent des graphiques 3D. Le déplacement et l'animation de ces éléments, ainsi que le rendu des couleurs, de la lumière et des ombres, nécessitent des vecteurs, des matrices et de nombreux autres concepts issus de l'algèbre linéaire et de la géométrie 3D.  Les jeux informatiques doivent également créer des animations réalistes de l'eau ou des objets physiques en mouvement et en collision. Ils utilisent souvent des solutions numériques d’équations différentielles partielles appropriées, telles que les équations de Navier-Stokes pour modéliser le liquide.  Enfin, les programmes informatiques doivent modéliser l'intelligence artificielle de personnages non jouables.",
-      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/nrich.maths.org/1374"
+      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
     },
     "carbon_dating": {
       "title": "Datation au carbone",
@@ -166,7 +166,7 @@
     "air_traffic": {
       "title": "Trafic aérien",
       "body": "Chaque jour, il y a environ 50 000 vols commerciaux. Tous les avions, tous les bagages, tous les équipages et tous les passagers doivent être au bon endroit au bon moment. Plus important encore, les avions ne peuvent pas s'écraser en arrivant dans l'un des aéroports occupés. Il s'agit d'un défi logistique incroyablement complexe, impossible sans les mathématiques et la recherche opérationnelle.  De plus, les compagnies aériennes veulent économiser de l'argent en créant un réseau plus efficace dans lequel les avions empruntent les meilleurs itinéraires possibles et ne sont jamais inactifs, vides ou hors service. Cela peut être fait en utilisant des algorithmes de la théorie des graphes.",
-      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/https://mathigon.org/course/graph-theory/introduction"
+      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/\nhttps://mathigon.org/course/graph-theory/introduction"
     },
     "wildfire_modelling": {
       "title": "Modélisation des feux de brousse",

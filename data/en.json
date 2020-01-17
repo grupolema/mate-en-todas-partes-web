@@ -91,7 +91,7 @@
     "computer_games": {
       "title": "Computer Games",
       "body": "Many computer games use 3D graphics. Moving and animating these, as well as rendering colors, light and shadows, requires vectors, matrices and many other concepts from linear algebra and 3D geometry.\n\nComputer games also have to create realistic animations of water or moving and colliding physical objects. They often use numerical solutions to the appropriate partial differential equations, such as the Navier-Stokes equations to model liquid.\n\nFinally, computer programs have to model the artificial intelligence of non-playable characters.",
-      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/nrich.maths.org/1374"
+      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
     },
     "carbon_dating": {
       "title": "Carbon Dating",
@@ -166,7 +166,7 @@
     "air_traffic": {
       "title": "Air Traffic",
       "body": "Every day, there are around 50,000 commercial airline flights. All planes, all luggage, every crew and all passengers have to be at the right place at the right time. Most importantly, planes can’t crash when arriving at any of the busy airports. This is an incredibly complex logistic challenge, impossible without mathematics and Operations research.\n\nIn addition, airlines want to save money by creating a more efficient network in which planes take the best possible routes and in which planes are never idle, empty or out of service. This can be done using algorithms from Graph theory.",
-      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/https://mathigon.org/course/graph-theory/introduction"
+      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/\nhttps://mathigon.org/course/graph-theory/introduction"
     },
     "wildfire_modelling": {
       "title": "Wildfire Modelling",

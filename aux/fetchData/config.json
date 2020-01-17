@@ -1,7 +1,7 @@
 {
   "spreadsheetID": "1rZVUPqizR3LkFzrjPrBCOmphESAA82iYutEBeFaX1fA",
   "worksheetID": 1,
-  "languages": ["en", "fr"],
+  "languages": ["en", "fr", "es"],
   "ignoredIDs" : [
     "crowd_control", "crime_prevention", "defence_and_military"
   ]

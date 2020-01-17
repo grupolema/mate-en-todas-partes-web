@@ -6,6 +6,9 @@
     "@idm2020": {
       "title": "International Day of Mathematics 2020"
     },
+    "@learn_more": {
+      "title": "Learn more about the International day of Mathematics"
+    },
     "@description": {
       "title": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look."
     },
@@ -14,6 +17,12 @@
     },
     "@footer_kts": {
       "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+    },
+    "@footer_mathigon": {
+      "title": "Concept and some text created by Philipp Legner (Mathigon)"
+    },
+    "@footer_license": {
+      "title": "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
     },
     "@main_site": {
       "title": "Main Website"
@@ -126,7 +135,7 @@
     },
     "rockets": {
       "title": "Rockets and Satellites",
-      "body": "Aerospace industry has many challenges. To reach space, rockets need fuel to burn for thrust. More fuel makes a rocket more powerful, but it also makes it heavier, although the weight of fuel decreases as it burns... Tsiolkovsky rocket equation sets these constraints. The motion of rockets and satellites in space is governed by gravity, with trajectories described by differential equations and spherical geometry. Communications in space pose problems of noise, distance, unreliablity... mathematical codes help to transmit the data without corrutpion. It's not rocket science, it's mathematics!",
+      "body": "Aerospace industry has many challenges. To reach space, rockets need fuel to burn for thrust. More fuel makes a rocket more powerful, but it also makes it heavier, although the weight of fuel decreases as it burns... Tsiolkovsky rocket equation sets these constraints. The motion of rockets and satellites in space is governed by gravity, with trajectories described by differential equations and spherical geometry. Communications in space pose problems of noise, distance, unreliablity... mathematical codes help to transmit the data without corruption. It's not rocket science, it's mathematics!",
       "links": "exploration.grc.nasa.gov/education/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
     },
     "finance_banking": {
@@ -147,7 +156,7 @@
     "search_engines": {
       "title": "Search Engines",
       "body": "Billions of people use the internet every day, for example using search engines like Google.\n\nIn order to find the most useful websites and display them at the top, Google represents all pages on the internet in a gigantic matrix, and you can use linear algebra, probability, and graph theory to find the most popular sites.\n\nGoogle uses mathematics for many other of its services: finding directions in Maps, spam detection in Gmail, voice recognition on Android, text recognition when scanning books, compressing YouTube videos, detecting faces in images, or translating text.",
-      "links": "www.ams.org/samplings/feature-column/fcarc-pagerankhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
+      "links": "www.ams.org/samplings/feature-column/fcarc-pagerank\nhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
     },
     "enigma": {
       "title": "Breaking the Enigma",

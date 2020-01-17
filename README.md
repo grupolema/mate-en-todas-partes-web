@@ -3,6 +3,10 @@
 A mini website for the "Mathematics is Everywhere" theme of IDM 2020. It presents various human activities
 in a grid and explains their relationship with mathematics via short texts.
 
+## Installation
+
+The `dist` folder should be made public in the web server.
+
 ## Compilation
 
 This website is built using several compilable languages:
@@ -74,3 +78,7 @@ Software Copyright 2020 IMAGINARY gGmbH, licensed under the MIT License.
 Text licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 
 For image licenses see the file image_licenses.md.
+
+If you create your own copy of this website using the included files you MUST modify the Impressum link to a page
+indicating your own legal responsability. You must also include text in the footer indicating the name of your
+own organization (and logo, optionally) and indication of any modifications to content done by you.

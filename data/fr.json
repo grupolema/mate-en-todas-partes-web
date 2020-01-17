@@ -6,6 +6,9 @@
     "@idm2020": {
       "title": "Journée Internationale des Mathématiques 2020"
     },
+    "@learn_more": {
+      "title": "Learn more about the International day of Mathematics"
+    },
     "@description": {
       "title": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look."
     },
@@ -14,6 +17,12 @@
     },
     "@footer_kts": {
       "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+    },
+    "@footer_mathigon": {
+      "title": "Concept and some text created by Philipp Legner (Mathigon)"
+    },
+    "@footer_license": {
+      "title": "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
     },
     "@main_site": {
       "title": "Main Website"

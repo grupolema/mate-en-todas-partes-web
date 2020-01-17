@@ -6,10 +6,7 @@
           a.footer-logo.logo-imu(href='https://www.mathunion.org/')
             img(src='assets/img/logo-imu.png', alt="International Mathematical Union")
         p
-          | The International Day of Mathematics is a project led by the
-          |
-          a(href='https://www.mathunion.org/')
-            | International Mathematical Union.
+          != str('footer_imu')
       .col-md-8.col-logos-r
         .footer-logo-row
           a.footer-logo.logo-imaginary(href='https://www.imaginary.org/')
@@ -17,23 +14,9 @@
           a.footer-logo.logo-kts(href='https://www.klaus-tschira-stiftung.de/')
             img(src='assets/img/logo-kts-footer.png' alt='Klaus Tschira Stiftung gemeinnützige GmbH')
         p
-          | The IDM website was created by
-          |
-          a(href='https://www.imaginary.org') IMAGINARY
-          |
-          | with support from the
-          |
-          a(href='https://www.klaus-tschira-stiftung.de/') Klaus&nbsp;Tschira&nbsp;Stiftung
-          | .
+          !=str('footer_kts')
         p
-          | Concept and some text created by
-          |
-          a(href='http://mathigon.org/')
-            | Philipp Legner (Mathigon)
-          | . Licensed under
-          | a Creative Commons Attribution-ShareAlike 4.0 International License (
-          a(href='https://creativecommons.org/licenses/by-sa/4.0/') CC BY-SA 4.0
-          | ).
+          !=str('footer_mathigon') + ' ' + str('footer_license')
     .row
       nav.nav
         a.nav-link(href='https://www.idm314.org/')

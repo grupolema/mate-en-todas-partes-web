@@ -13,16 +13,16 @@
       "title": "Celebrate the International Day of Mathematics discovering mathematics everywhere you look."
     },
     "@footer_imu": {
-      "title": "The International Day of Mathematics is a project led by the International Mathematical Union."
+      "title": "The International Day of Mathematics is a project led by the [International Mathematical Union](https://www.mathunion.org/)."
     },
     "@footer_kts": {
-      "title": "The IDM website was created by IMAGINARY with support from the Klaus Tschira Stiftung."
+      "title": "The IDM website was created by [IMAGINARY](https://about.imaginary.org) with support from the [Klaus Tschira Stiftung](https://www.klaus-tschira-stiftung.de/)."
     },
     "@footer_mathigon": {
-      "title": "Concept and some text created by Philipp Legner (Mathigon)"
+      "title": "Concept and some text created by [Philipp Legner (Mathigon)](http://mathigon.org/)."
     },
     "@footer_license": {
-      "title": "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+      "title": "Licensed under a Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))."
     },
     "@main_site": {
       "title": "Main Website"

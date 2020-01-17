@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
 const fs = require('fs');
+const MarkdownIt = require('markdown-it')();
 const config = require('./config.json');
 
 const dataDirectory = '../data';
@@ -10,7 +12,7 @@ let localizedStrings = null;
 
 function str(id) {
   if (localizedStrings[id] !== undefined) {
-    return localizedStrings[id];
+    return MarkdownIt.renderInline(localizedStrings[id]);
   }
   return id;
 }

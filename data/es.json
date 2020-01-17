@@ -13,16 +13,16 @@
       "title": "Celebra el Día Internacional de las Matemáticas descubriendo matemáticas por todas partes."
     },
     "@footer_imu": {
-      "title": "El Día Internacional de las Matemáticas es un proyecto dirigido por la Unión Matemática Internacional."
+      "title": "El Día Internacional de las Matemáticas es un proyecto dirigido por la [Unión Matemática Internacional](https://www.mathunion.org/)."
     },
     "@footer_kts": {
-      "title": "La web IDM ha sido creada por IMAGINARY con el apoyo de la Fundación Klaus Tschira."
+      "title": "La web IDM ha sido creada por [IMAGINARY](https://about.imaginary.org) con el apoyo de la [Fundación Klaus Tschira](https://www.klaus-tschira-stiftung.de/)."
     },
     "@footer_mathigon": {
-      "title": "Concepto y parte del texto creado por Philipp Legner (Mathigon)"
+      "title": "Concepto y parte del texto creado por [Philipp Legner (Mathigon)](http://mathigon.org/)."
     },
     "@footer_license": {
-      "title": "Bajo licencia Creative Commons Attribution-ShareAlike 4.0 internacional"
+      "title": "Bajo licencia Creative Commons Attribution-ShareAlike 4.0 internacional  ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))."
     },
     "@main_site": {
       "title": "Web principal"

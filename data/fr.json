@@ -13,16 +13,16 @@
       "title": "Célébrez la Journée internationale des mathématiques en découvrant les mathématiques partout autour de vous."
     },
     "@footer_imu": {
-      "title": "La Journée internationale des mathématiques est un projet de l'Union mathématique internationale."
+      "title": "La Journée internationale des mathématiques est un projet de [l'Union mathématique internationale](https://www.mathunion.org/)."
     },
     "@footer_kts": {
-      "title": "Le site web de la JIM a été créé par IMAGINARY avec le soutien financier de la Fondation Klaus Tschira."
+      "title": "Le site web de la JIM a été créé par [IMAGINARY](https://about.imaginary.org) avec le soutien financier de la [Fondation Klaus Tschira](https://www.klaus-tschira-stiftung.de/)."
     },
     "@footer_mathigon": {
-      "title": "Concept et du texte créé par Philippe Legner (Mathigon)"
+      "title": "Concept et du texte créé par [Philipp Legner (Mathigon)](http://mathigon.org/)."
     },
     "@footer_license": {
-      "title": "Sous Licence Creative Commons Attribution-ShareAlike 4.0 International"
+      "title": "Sous Licence Creative Commons Attribution-ShareAlike 4.0 International ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))."
     },
     "@main_site": {
       "title": "Site web principal"
@@ -31,7 +31,7 @@
       "title": "Impressum"
     },
     "@privacy_policy": {
-      "title": "Privacy policy"
+      "title": "Politique de confidentialité."
     },
     "epidemics_analysis": {
       "title": "Analyse des épidémies",

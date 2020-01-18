@@ -58,7 +58,7 @@ function () {
 
           return each;
         }).map(function (each) {
-          return $('<li>').append($('<a>').attr('href', each).attr('target', '_blank').html(_this2.formatURL(each)));
+          return $('<li>').append($('<a>').attr('href', each).attr('target', '_blank').attr('rel', 'noopener').html(_this2.formatURL(each)));
         });
         this.$bodyLinks.append($('<ul class="colored">').append(links));
       }

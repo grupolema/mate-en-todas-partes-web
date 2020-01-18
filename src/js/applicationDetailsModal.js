@@ -60,6 +60,7 @@ export default class ApplicationDetailsModal {
           .append($('<a>')
             .attr('href', each)
             .attr('target', '_blank')
+            .attr('rel', 'noopener')
             .html(this.formatURL(each))));
       this.$bodyLinks.append($('<ul class="colored">').append(links));
     }

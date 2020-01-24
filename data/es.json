@@ -51,12 +51,12 @@
     "detecting_frauds": {
       "title": "Detección de fraudes",
       "body": "Prueba una experimento: recoge cualquier númeor que veas a tu alrededor y apunta su primera cifra signigicativa, es decir, la primera cifra a la izquierda, excluyendo ceros. Por ejemplo, la primera cifra significativa de  23,567 es 2, y la de 0,00345 es 3. Deberías obtener aproximadamente un 30% de cifras 1, y sólamente un 4,5% de cifras 9. Este sorprendente fenómeno se llama Ley de Benford. Es una ley de la probabilidad. Con frecuencia los números en textos financieros siguen esta ley, lo que da un test para detectar fraudes en caso de que alguien haya manipulado los datos sin tener en cuenta que siguen esa ley.",
-      "links": "http://blog.kleinproject.org/?p=1093\nhttps://www.mathscareers.org.uk/article/number-one-crime-fighter/"
+      "links": "http://blog.kleinproject.org/?p=1634&lang=es\nhttps://www.mathscareers.org.uk/article/number-one-crime-fighter/"
     },
     "packing_oranges": {
       "title": "Empaquetar naranjas",
       "body": "¿Cuál es la manera más densa de empaquetar esferas, por ejemplo naranjas? Kepler conjeturó que es aquella que se puede ver en las fruterías: los centros de las esferas se sitúan sobre los centros de los cuadrados de una cuadrícula formada por una capa inferior de naranjas. La conjetura de Kepler se demostró finalmente por Thomas Hales en 1998, publicado en detalle en 2006. Es una enorme demostración asistida por ordenador, y el programa es público para que cualquiera pueda comprobar los detalles. Usar el empaquetamiento más denso es importante para la industria, ya que no queremos que el contenido de la caja se mueva al sacudirla.",
-      "links": "http://blog.kleinproject.org/?p=742"
+      "links": "http://blog.kleinproject.org/?p=1694&lang=es"
     },
     "four_colors_suffice": {
       "title": "Cuatro colores bastan",
@@ -81,7 +81,7 @@
     "fractals_nature": {
       "title": "Fractales en la naturaleza",
       "body": "Para describir las formas compicadas de la naturaleza necesitamos una nueva geometría, la geometría fractal. Los objetos fractales tienen propiedades de auto-semejanza, lo que significa que si ampliamos o alejamos el objeto obtenemos nuevos detalles que se parecen al objeto original. La geometría fractal es adecuada para describir muchas formas naturales: nubes, galaxias, costas rocosas, redes de ríos, copos de nieve, o numerosas plantas, desde helechos hasta la coliflor de romanesco. Los objetos fractales tienen una dimensión que no es un número entero.",
-      "links": "http://blog.kleinproject.org/?p=306"
+      "links": "http://blog.kleinproject.org/?p=1713&lang=es"
     },
     "digital_music": {
       "title": "Música digital",
@@ -111,7 +111,7 @@
     "predict_weather": {
       "title": "Predicciones del tiempo",
       "body": "Predecir el clima es una tarea increíblemente difícil, incluso utilizando una extensa red de estaciones meteorológicas, satélites y superordenadores.\n\nLos fluidos como la atmósfera siguen un conjunto de reglas llamadas ecuaciones de Navier-Stokes. No podemos resolver estas ecuaciones directamente, sino que en su lugar usamos simulaciones numéricas para crear un pronóstico.\n\nPero incluso las más pequeñas diferencias en las medidas de datos y ajustes de parámetros pueden tener un gran efecto en estas predicciones. Esto hace imposible predecir con precisión el clima con más de unas pocas semanas de anticipación, pero los modelos siguen mejorando ...",
-      "links": "http://www.metoffice.gov.uk/learning/making-a-forecast/history-of-numerical-weather-prediction\nhttp://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
+      "links": "http://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
     },
     "cosmology": {
       "title": "Cosmología",
@@ -121,12 +121,12 @@
     "reading_cd": {
       "title": "Lectura de CD y DVD.",
       "body": "Los CD y DVD almacenan datos como una serie de \"colinas\" y \"valles\" microscópicos grabados en la superficie de los discos. Los rasguños y el polvo pueden destruir el grabado, por lo que en un CD ligeramente rayado debería faltar algo de información. Afortunadamente, los datos se almacenan en discos utilizando códigos Reed-Solomon. Este método agrega un poco de información redundante, por lo que las computadoras pueden usar los datos restantes para encontrar y corregir errores. Esto solo funciona si falta una pequeña parte de los datos, no puede reproducir un CD completamente rayado. Los códigos de Reed-Solomon intercalados utilizados para CD y DVD se basan en polinomios sobre cuerpos finitos.",
-      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details\nwww.usna.edu/Users/math/wdj/_files/documents/reed-sol.htm"
+      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details/"
     },
     "rsa": {
       "title": "Criptografía de clave pública",
       "body": "Las matemáticas se utilizan para proteger las comunicaciones de Internet, desde correos electrónicos hasta el uso de tarjetas de crédito en línea. Para hacerlo, el ordenador receptor toma dos números primos muy grandes y publica su producto. El ordenador emisor utiliza este producto para cifrar el mensaje y enviarlo al receptor. Para revertir el proceso y descifrar el mensaje, se necesitan los dos primos originales. Es extremadamente difícil factorizar números muy grandes, por lo que solo el receptor puede leer el mensaje ya que conoce los dos números primos originales. Esta es la base del protocolo RSA, llamado así por sus inventores Rivest, Shamir y Adleman.",
-      "links": "www.claymath.org/posters/primes/\nen.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
+      "links": "en.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
     },
     "gps": {
       "title": "Navegación por satélite",
@@ -136,7 +136,7 @@
     "rockets": {
       "title": "Cohetes y satélites",
       "body": "La industria aeroespacial tiene muchos desafíos. Para llegar al espacio, los cohetes necesitan combustible que al quemarse proporciona empuje. Más combustible hace que un cohete sea más potente, pero también lo hace más pesado, aunque el peso del combustible disminuye a medida que se quema ... La ecuación de Tsiolkovsky para los cohetes establece estas restricciones. El movimiento de cohetes y satélites en el espacio se rige por la gravedad, con trayectorias descritas por ecuaciones diferenciales y geometría esférica. Las comunicaciones en el espacio plantean problemas de ruido, distancia, falta de fiabilidad... los códigos matemáticos ayudan a transmitir los datos sin que se corrompan. ¡No es ciencia-ficción, son matemáticas!",
-      "links": "exploration.grc.nasa.gov/education/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
     },
     "finance_banking": {
       "title": "Fnanzas y banca",

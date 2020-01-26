@@ -1,0 +1,202 @@
+{
+  "texts": {
+    "@title": {
+      "title": "A matemática está em toda parte"
+    },
+    "@idm2020": {
+      "title": "Dia Internacional da Matemática 2020"
+    },
+    "@learn_more": {
+      "title": "Aprenda mais sobre o Dia Internacional da Matemática"
+    },
+    "@description": {
+      "title": "Celebre o Dia Internacional da Matemática descobrindo matemática em que olhar"
+    },
+    "@footer_imu": {
+      "title": "O Dia Internacional da Matemática é um projeto liderado pela [União Internacional da Matemática](https://www.mathunion.org/)."
+    },
+    "@footer_kts": {
+      "title": "O site do DIA foi criado por [IMAGINARY](https://about.imaginary.org) com o apoio do [Klaus Tschira Stiftung](https://www.klaus-tschira-stiftung.de/)."
+    },
+    "@footer_mathigon": {
+      "title": "Conceito e parte do texto criada por [Philipp Legner (Mathigon)](http://mathigon.org/)."
+    },
+    "@footer_license": {
+      "title": "Sob a licença Creative Commons Attribution-ShareAlike 4.0 International License ([CC \nBY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))."
+    },
+    "@main_site": {
+      "title": "Website principal"
+    },
+    "@impressum": {
+      "title": "Impresso"
+    },
+    "@privacy_policy": {
+      "title": "Política de Privacidade"
+    },
+    "epidemics_analysis": {
+      "title": "Análise de epidemias",
+      "body": "Há sempre o temor de que uma epidemia nunca acabe, pois não param de aparecer novos casos. No entanto, não é o que a matemática prevê.  O número médio de indivíduos infectados por cada pessoa infecciosa, chamado de fator reprodutivo, R_0, é o que verdadeiramente interessa:. Se R_0 <1, a epidemia desaparece por si só, enquanto para R_0> 1 nada a detém. O conhecimento de R_0 é fundamental para definir a estratégia de controle: por exemplo, não precisamos vacinar toda a população, mas apenas a fração necessária para tornar R_0 menor do que 1.",
+      "links": "https://www.mathscareers.org.uk/article/number-one-crime-fighter/"
+    },
+    "discovering_core": {
+      "title": "Desvendando o núcleo da Terra",
+      "body": "Foi uma matemática dinamarquesa, Inge Lehmann, que desvendou a constituição do núcleo interno da Terra. Em 1936, enquanto trabalhava para o Instituto Geodésico Dinamarquês, teve acesso a dados sobre as ondas sísmicas geradas após terremotos distantes e registradas em estações sísmicas em diversos locais da Terra. Os dados observados eram inconsistentes com o modelo do interior da Terra então considerado válido, e propôs um novo modelo compatível com as observações. Neste novo modelo, o núcleo dividido está dividido em duas partes, um núcleo interno mais pesado cercado por um núcleo externo. Algumas ondas sísmicas são refletidas no núcleo interno, que agora sabemos ser ferroso.",
+      "links": "https://www.tandfonline.com/doi/abs/10.4169/college.math.j.44.5.399\nhttp://mpe.dimacs.rutgers.edu/2014/02/19/how-inge-lehmann-discovered-the-inner-core-of-the-earth/"
+    },
+    "patterns_nature": {
+      "title": "Padrões na Natureza",
+      "body": "Como são gerados os padrões na natureza? Por que o tigre é listrado, enquanto o leopardo tem manchas? Basta um modelo químico de reação e difusão para  produzir todos os padrões conhecidos de revestimento animal. Dois produtos químicos, um ativador e um inibidor, interagem e se difundem. O modelo explica que o padrão observado em um embrião depende do tamanho e da forma do embrião quando a difusão da reação começa. Modelos semelhantes de reação e difusão de reação explicam padrões de conchas do mar e também de vegetação em regiões semi-áridas. A Base Química da Morfogênese foi proposta por Alan Turing em 1952.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/09/02/how-vegetation-competes-for-rainfall-in-dry-regions-using-math-models-to-make-predictions/ \nhttp://mpe.dimacs.rutgers.edu/2013/08/23/patterns-on-earth/"
+    },
+    "detecting_frauds": {
+      "title": "Detectando fraudes",
+      "body": "Faça você uma experiência: anote todos os números ao seu redor e observe o primeiro dígito significativo. Este é o primeiro dígito diferente de zero à esquerda do número: por exemplo, o primeiro dígito significativo de 23.567 é 2 e o de 0,00345 é 3. Você deve obter aproximadamente 30% de dígitos 1 e apenas 4,5% de dígitos 9. Esse fenômeno surpreendente é conhecido como lei de Benford. É uma lei probabilística. Na maioria das vezes, os números nos balancetes financeiros seguem essa lei, o que nos fornece uma técnica para detectar quando um fraudador manipulou os dados sem levar em conta a existência da lei.",
+      "links": "http://blog.kleinproject.org/?p=1093\nhttps://www.mathscareers.org.uk/article/number-one-crime-fighter/"
+    },
+    "packing_oranges": {
+      "title": "Empilhando laranjas",
+      "body": "Qual é a maneira mais densa de empilhar esferas, como, por exemplo, laranjas? Kepler conjeturou o que pode facilmente ser observado no mercado: o centro de cada uma das esferas está localizado nos pontos de uma rede cúbica de face centrada. A conjectura de Kepler só foi comprovada por Thomas Hales em 1998, com os detalhes publicados em 2006. É uma enorme prova assistida por computador e o programa está em domínio público, de forma que qualquer um pode verificar todos os detalhes. O conhecimento da forma mais densa de empacotar objetos é importante na indústria, onde é importante evitar que o conteúdo mude de lugar quando a caixa se move.",
+      "links": "http://blog.kleinproject.org/?p=742"
+    },
+    "four_colors_suffice": {
+      "title": "Quatro cores bastam",
+      "body": "Qual é o número mínimo de cores necessário para colorir qualquer mapa, de modo que dois países que façam fronteira nunca tenham a mesma cor? É fácil desenhar um mapa para o qual três cores não bastam. Mas quatro bastam! É esse o Teorema das Quatro Cores, provado em 1976 por Kenneth Appel e Wolfgang Haken. Foi o primeiro teorema com uma demonstração assistida por computador.",
+      "links": "http://blog.kleinproject.org/?p=1205"
+    },
+    "artificial_intelligence": {
+      "title": "Inteligência artificial",
+      "body": "De onde vem seu sucesso repentino? Tradicionalmente, programar um robô significava dar instruções sobre o que o robô deveria fazer. Mas nós, seres humanos, não somos ensinados sobre tudo o que podemos fazer. Aprendemos por nós mesmos. Uma criança que viu muitos gatos pode reconhecer que um animal é um gato, mesmo que esse animal seja diferente de tudo aquilo que já viu. Hoje em dia, também os robôs têm essa capacidade. O sucesso recente da inteligência artificial vem do fato de que os robôs estão programados para aprender, um processo que só é possível devido à enorme quantidade de dados disponíveis.",
+      "links": ""
+    },
+    "past_climates": {
+      "title": "Os climas passados da Terra",
+      "body": "No passado, a Terra passou por períodos de glaciações e climas tórridos, o que pode ser verificado a partir de dados geológicos. A matemática pode ajudar a explicar esses climas de outras eras. A atração de Júpiter perturba a órbita da Terra ao redor do Sol. As mudanças na órbita da Terra são periódicas, com períodos de 25 mil a 400 mil anos: os ciclos de Milankovitch. Glaciações ocorrem quando a obliquidade do eixo da Terra é maior. Compreender os climas passados ​​é essencial para poder prever os climas futuros da Terra.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/06/05/earths-climate-at-the-age-of-the-dinosaurs/ \nhttp://mpe.dimacs.rutgers.edu/2013/10/04/understanding-earths-past-climate-how-the-mathematical-sciences-can-help-to-inform-the-debate-on-climate-change/"
+    },
+    "collective_motion": {
+      "title": "Movimentos coletivos",
+      "body": "Quem nunca ficou fascinado pelo movimento de um bando de pássaros ou de um cardume de peixes? É possível construir modelos que descrevem esses movimentos coletivos. O comportamento de cada indivíduo obedece a regras simples que governam sua interação com um certo número de vizinhos mais próximos. Essas regras são de três tipos: repulsão quando muito próximo, atração quando longe e alinhamento numa distância ótima. Compreender o movimento coletivo é importante para controlar pragas invasoras.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/08/30/the-unreasonable-effectiveness-of-collective-animal-behavior/"
+    },
+    "fractals_nature": {
+      "title": "Fractais e Natureza",
+      "body": "Para descrever as formas intricadas da natureza, precisamos de uma nova geometria: a geometria fractal. Os objetos fractais têm propriedades de auto-similaridade, o que significa que, ao fazer zoom, os detalhes ampliados se assemelham aos do objeto original. A geometria fractal é adequada para descrever muitas formas da natureza, de nuvens e galáxias às costas rochosas, redes de rios, flocos de neve e muitas plantas, de samambaias à couve-romanesca. Os objetos fractais têm dimensão, mas esta não é um número inteiro.",
+      "links": "http://blog.kleinproject.org/?p=306"
+    },
+    "digital_music": {
+      "title": "Música digital",
+      "body": "A música é feita de ondas sonoras que vibram pelo ar até os nossos ouvidos. Colhendo amostras em curtos intervalos de tempo - geralmente 44100 vezes por segundo - essas ondas podem ser armazenadas em um CD como uma sequência de números. As ondas sonoras são a combinação de muitas ondas com frequências diferentes, algumas que nem podem ser ouvidas. A transformada de Fourier nos permite dividir uma onda sonora complexa em uma soma de ondas simples. Formatos de áudio como MP3 mantêm apenas as frequências audíveis, ocupando muito menos espaço de armazenamento. Sem matemática, não haveria iPods, Spotify ou iTunes.",
+      "links": "www.theguardian.com/technology/2002/apr/04/internetnews.maths\nwww.mathscareers.org.uk/article/how-mp3-compression-work/\nen.wikipedia.org/wiki/Digital_audio"
+    },
+    "computer_games": {
+      "title": "Jogos de computador",
+      "body": "Muitos jogos de computador usam gráficos 3D. Mover e animar, assim como manipular cores, luz e sombras, requer vetores, matrizes e muitos outros conceitos de álgebra linear e geometria em três dimensões. Os jogos de computador também precisam criar animações realistas da água e mover e simular colisões de objetos físicos. Para isto, são utilizadas soluções numéricas para determinadas equações diferenciais parciais, como a equação de Navier-Stokes, um importante modelo em dinâmica de fluidos. Finalmente, os programas de computador precisam de usar a inteligência artificial para os personagens não jogáveis.",
+      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
+    },
+    "carbon_dating": {
+      "title": "Datação por carbono",
+      "body": "Todo ser vivo acumula o elemento químico carbono. Este, na prática, é uma combinação de vários isótopos diferentes, incluindo uma proporção muito pequena de isótopos radioativos, o carbono-14. Quando uma planta ou animal morre, para de absorver o carbono-14 e os átomos existentes começam a decair a uma taxa constante. Os cientistas analisam o carbono-14 ainda presente nos restos biológicos para estimar o tempo de morte de seu portador. Isso é muito útil em arqueologia, pois permite determinar o século ou até a década em que um item feito por materiais animais ou vegetais (como roupas ou papel) foi produzido.",
+      "links": "en.wikipedia.org/wiki/Radiocarbon_dating\nwww.mathscareers.org.uk/article/million-year-old-maths/\nhyperphysics.phy-astr.gsu.edu/hbase/nuclear/cardat.html"
+    },
+    "search_for_alien_life": {
+      "title": "Busca de vida extraterrestre",
+      "body": "Os números primos são os blocos construtivos universais dos números, não só na Terra como em todo o Universo. Se sinais de rádio do espaço contiverem a sequência de números primos - 2, 3, 5, 7, 11, 13, ... - eles poderiam indicar uma origem não natural, e poderiam ser o início de uma comunicação com vida alienígena.\n\nUm famoso sinal enviado da Terra para o espaço, a Mensagem de Arecibo, consiste de uma longa sequência de zeros e uns. O tamanho da messagem é o produto de dois números primos, 23 x 73 = 1679, o que sugeriria aos astrônomos alienígenas que reorganizem os zeros e uns em uma imagem retangular de lados 23 e 73.",
+      "links": "www.seti.org/seti-institute/project/details/early-seti-project-ozma-arecibo-message\nen.wikipedia.org/wiki/Communication_with_extraterrestrial_intelligence\nxkcd.com/384/"
+    },
+    "big_data": {
+      "title": "Big Data",
+      "body": "Dados estão por toda a parte, e novos dados são criados toda vez que navegamos na internet, completamos um formulário ou vamos às compras. Cientistas coletam dados sempre que conduzem algum experimento, e às vezes essa quantidade de dados é tão grande que são necessárias novas tecnologias para processá-los.\n\nÉ a estatística que faz com que esses dados façam sentido. Usando matemática podemos converter um grande amontoado de números - todos eles sem significado isoladamente - em informações muito precisas sobre o sistema que os gerou. A estatística também pode nos dizer se certos achados são válidos ou significativos.",
+      "links": "en.wikipedia.org/wiki/Big_data\nen.wikipedia.org/wiki/Statistics\nwww.mathscareers.org.uk/article/statistically-savvy/"
+    },
+    "predict_weather": {
+      "title": "Previsão do tempo",
+      "body": "Prever o tempo é uma tarefa incrivelmente difícil, mesmo usando uma extensa rede de estações meteorológicas, satélites e supercomputadores.\n\nUm fluido, como é o caso da atmosfera, segue as chamadas equações de Navier-Stokes. Não podemos as resolver diretamente, mas podemos usar simulações numéricas para fazer previsões.\n\nNo entanto, pequenas diferenças nos dados medidos e nos parâmetros podem ter um grande efeito nessas previsões. Isto torna impossível prever o tempo por mais do que algumas semanas. Mesmo assim, a cada dia que passa temos modelos melhores...",
+      "links": "https://www.metoffice.gov.uk/weather/learn-about/how-forecasts-are-made/computer-models/history-of-numerical-weather-prediction\nhttp://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
+    },
+    "cosmology": {
+      "title": "Cosmologia",
+      "body": "A cosmologia modela a evolução do Universo, do Big Bang até hoje, e prevê o futuro. Nosso Universo está expandindo rapidamente, e a taxa de expansão segue as equações de Friedmann, que podem ser deduzidas das equações do campo gravitacional de Einstein. O destino do Universo depende da quantidade de matéria (=energia) no Universo, e as observações astronômicas sugerem a existência de matéria escura e de energia escura. Supercomputadores também são usados para modelar o Universo nos instantes iniciais após o Big Bang. Isto pode não parecer \"útil\" hoje, mas pode muito bem ter uma aplicação prática no futuro...",
+      "links": "en.wikipedia.org/wiki/Cosmology\nmap.gsfc.nasa.gov/universe/\nwww.damtp.cam.ac.uk/research/gr/public/"
+    },
+    "reading_cd": {
+      "title": "Leitura de CDs e DVDs",
+      "body": "CDs e DVDs armazenam dados como uma sequência de \"montanhas\" e \"vales\" microscópicos gravados na superfície dos discos. Riscos e sujeira podem destruir a gravação, então um risco num CD é informação que se perdeu. Felizmente, os dados são gravados nos discos com os chamados códigos de Reed-Solomon. Esse método adiciona um pouco de informação redundante, de forma que os computadores podem usar o restante dos dados para achar e corrigir erros. Isto só funciona quando apenas uma pequena parte dos dados estiver em falta: não é possível ouvir um CD completamente riscado. Esses códigos são baseados em polinômios sobre corpos finitos.",
+      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details"
+    },
+    "rsa": {
+      "title": "Criptografia de chave pública",
+      "body": "A matemática é usada para dar segurança às comunicações pela internet, desde emails até o uso online de cartões de crédito. Para isso, o computador receptor publica o produto de dois número primos grandes. O computador emissor usa esse produto para encriptar uma mensagem e manda-a para o receptor. Para decifrar a mensagem, são necessários os dois primos originais. Como é extremamente difícil fatorar números muito grandes, somente o receptor é capaz de ler a mensagem, já que somente ele conhece os dois primos originais. Esta é a base do protocolo RSA, nome dado em homenagem a seus inventores Rivest, Shamir e Adleman.",
+      "links": "en.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
+    },
+    "gps": {
+      "title": "Navegação por satélite",
+      "body": "Para determinar qualquer localização na Terra, sistemas de navegação como o GPS usam sinais de satélites, que informam instantes extremamente precisos. Achando os retardos ('delays'), um computador pode calcular a distância ao satélite e, sabendo a distância para vários satélites, saber a posição exata do receptor na Terra. Para a precisão requerida, é preciso levar em conta os avanços mais modermos da física. De acordo com a Teoria da Relatividade, o tempo passa de forma diferente para observadores diferentes. O efeito é pequeno e indetectável na vida cotidiana, mas sem levar isso em conta, os receptores de GPS produziriam um erro de 10 km por dia!",
+      "links": "www.math.tamu.edu/~dallen/physics/gps/gps.htm\nwww.mathscareers.org.uk/article/get-lost/"
+    },
+    "rockets": {
+      "title": "Foguetes e satélites",
+      "body": "A indústria aeroespacial tem muitos desafios. Para alcançar o espaço, os foguetes precisam ser impulsionados pela queima de combustível. Mais combustível torna um foguete mais potente, mas também o faz mais pesado... o peso do combustível decresce quando ele é consumido... Essas questões são levadas em conta na equação de Tsiolkovsky. O movimento de foguetes e satélites no espaço é governado pela gravidade, com trajetórias descritas por equações diferenciais e geometria esférica. As comunicações no espaço enfrentam problemas de ruído, distância, falta de confiabilidade... e códigos matemáticos ajudam a transmitir dados sem erros. Não é ciência dos foguetes, é matemática!",
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+    },
+    "finance_banking": {
+      "title": "Finanças e sistema bancário",
+      "body": "Na matemática financeira, investidores podem comprar ou vender ações de uma companhia, 'commodities' como petróleo e ouro, ou derivativos, que são bens \"virtuais\" cujos preços são derivados de outros ativos. Os analistas financeiros têm muitas ferramentas matemáticas para ajudá-los a tomar decisões melhores, por exemplo modelos estatísticos para analisar séries históricas de dados econômicos, ou cálculo estocástico para prever o comportamento dos mercados financeiros.",
+      "links": "plus.maths.org/content/what-financial-mathematics\nhttps://www.mathscareers.org.uk/article/randomness-stock-market/\nhttps://www.mathscareers.org.uk/article/selling-the-future/"
+    },
+    "internet_phones": {
+      "title": "Internet e telefones",
+      "body": "As linhas de telefone e de internet formam uma gigantesca rede que permite aos usuários trocarem dados. Todos os usuários estão ligados por um sem número de conexões que têm uma capacidade limitada. Os operadores da rede têm que achar uma maneira de conectar emissor e receptor sem exceder a capacidade de qualquer conexão individual.\n\nPara assegurar um serviço confiável para chamadas telefônicas, a matemática da teoria das filas e modelos matemáticos usando processos de Poisson são usados.\n\nPara conexões de internet o método de comutação de pacotes é utilizado: todos o conjunto de dados é dividido em pequenos \"pacotes\" que são transmitidos independentemente.",
+      "links": "www.ams.org/notices/199808/paxson.pdf\nblog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nen.wikipedia.org/wiki/Packet_switching\nmathigon.org/course/graph-theory"
+    },
+    "gambling_betting": {
+      "title": "Jogando e apostando",
+      "body": "Jogar a dinheiro é sempre uma má ideia, porque cassinos e casas de apostas conhecem matemática e ajustam, se assim quiserem, as chances dos jogos e das apostas de forma a garantir que sempre ganharão no longo prazo.\n\nEnquanto é impossível usar probabilildade para prever o próximo número de um dado ou de uma roleta, é possível prever com bastante precisão o que acontecerá nos próximos 1000 lançamentos de um dado - esta é a chamada Lei dos Grandes Números. Mesmo uma probabilidade de 49% em favor do apostador dá à \"casa\" uma margem suficiente para auferir grandes lucros.",
+      "links": "mathigon.org/course/probability\nen.wikipedia.org/wiki/Gambling_mathematics\nhttp://news.bbc.co.uk/2/hi/programmes/more_or_less/8062277.stm\nhttps://plus.maths.org/content/understanding-uncertainty-football-crazy"
+    },
+    "search_engines": {
+      "title": "Mecanismos de busca",
+      "body": "Bilhões de pessoas usam a internet todos os dias, por exemplo com os mecanismos de busca como o do Google.\n\nPara achar os websites mais úteis e mostrá-los no topo, o Google representa todas as páginas da internet como uma matriz gigantesca, e usa álgebra linear, probabilidade e teoria dos grafos para encontrar os sites mais populares.\n\nO Google usa matemática para vários outros serviços: achar caminhos no Maps, detectar spam no G-mail, fazer reconhecimento de voz no Android, fazer reconhecimento de texto no escaneamento de livros, comprimir vídeos no YouTube, detectar rostos em imagens e traduzir textos.",
+      "links": "www.ams.org/samplings/feature-column/fcarc-pagerank\nhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
+    },
+    "enigma": {
+      "title": "Decifrando a Enigma",
+      "body": "Durante a Segunda Guerra, as forças armadas alemãs usaram a máquina Enigma para criptografar mensagens secretas.\n\nQuando você encripta um texto usando a Enigma, as letras do alfabeto são \"misturadas\" com uma série de rotores. Depois de escrever uma letra, esses rotores se movem, de modo que, na próxima vez, todas as letras são misturadas diferentemente. Junto com várias outras características, isto levava a mais de 150 trilhões de possíveis maneiras de uma mensagem secreta ser criptografada.\n\nNo entanto, o matemático inglês Alan Turing conseguiu quebrar o código da Enigma, construindo um dos primeiros computadores, a \"Bomba\".",
+      "links": "en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma\nplus.maths.org/content/exploring-enigma"
+    },
+    "air_traffic": {
+      "title": "Tráfego aéreo",
+      "body": "Todos os dias, há em torno de 50 mil voos comerciais. Todos os aviões, toda a bagagem, cada tripulação e todos os passageiros têm que estar no lugar certo no momento certo. Mais importante que isso, os aviões não podem se acidentar quando chegam nos aeroportos lotados. Isso é um desafio logístico incrivelmente complexo, impossível sem matemática e a área de pesquisa operacional.\n\nAlém disso, as companhias aéreas querem economizar recursos criando uma rede mais eficiente em que os aviões não só sigam pelas melhores rotas possíveis como também não estejam vazios, ociosos ou fora de serviço. Isto pode ser realizado com algoritmos da teoria de grafos.",
+      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/\nhttps://mathigon.org/course/graph-theory/introduction"
+    },
+    "wildfire_modelling": {
+      "title": "Modelando queimadas",
+      "body": "Queimadas são uma manifestação natural de muitos ecossistemas, mas elas podem ser perigosas para as pessoas. Bombeiros podem usar simulações matemáticas para modelar e prever o progresso do fogo. Essas simulações devem levar em conta a variação de vegetação, calor e umidade, vento, montanhas e quantidade de oxigênio, requerendo o uso de matemática avançada e dinâmica dos fluidos.",
+      "links": "www.mathscareers.org.uk/article/line-fire/\nwww.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
+    },
+    "mri_tomography": {
+      "title": "Ressonância e tomografia",
+      "body": "Aparelhos de ressonância magnética craim imagens tridimensionais do corpo humano tirando um sem número de retratos bidimensionais em diferentes direções. O processo de reobter o modelo tridimensional original usando esses retratos é chamado de tomografia - e não seria possível sem matemática avançada, como as chamadas 'transformadas de Radon'. A matemática literalmente salvando vidas.",
+      "links": "https://plus.maths.org/content/saving-lives-mathematics-tomography\nhttps://www.mathscareers.org.uk/article/medical-imaging-mathematics/"
+    },
+    "glacier_melting": {
+      "title": "Degelo de glaciares",
+      "body": "O derretimento das calotas polares impacta o nível do mar globalmente e o clima.\n\nInfelizmente, as imagens de satélite fornecem informação limitada sobre o estado integral da camada de gelo ou dos processos subjacentes ao degelo. Probabilidade e estatística podem ser usadas para analisar os dados ambientais, por exemplo da espessura do gelo e sua composição.\n\nModelos matemáticos que usam equações diferenciais e termodinâmica ajudam a entender a interação entre vento, gelo do mar, correntes oceânicas e transferências de calor.",
+      "links": "https://plus.maths.org/content/maths-and-climate-change-melting-arctic\nhttp://www.ams.org/notices/200905/tx090500562p.pdf\nhttps://www.mathscareers.org.uk/article/taking-earths-temperature/\nhttps://imaginary.org/program/future-of-glaciers-the-module"
+    },
+    "rollercoaster": {
+      "title": "Design de montanhas russas",
+      "body": "Projetar uma montanha russa não é fácil: ela precisa ser emocionante mas não sacudir demais, rápida mas ser capaz de frear rapidamente e, mais importante, precisa ser segura.\n\nA matemática pode ser usada para se calcular as forças agindo nos trens da montanha russa quando elas adquirem momento e o suporte estrutural necessário para suportar essas forças. Equações matemáticas e cálculo podem também ser usadas para projetar o formato de um caminho suave que inclua loops, piruetas e muitas outras características.",
+      "links": "https://www.mathscareers.org.uk/article/twist-shout/\nhttps://www.maa.org/press/periodicals/loci/joma/design-of-a-thrilling-roller-coaster-introduction-to-the-project"
+    },
+    "problem_solving": {
+      "title": "Resolução de problemas",
+      "body": "A maioria dos itens deste website mostra aplicações da matemática à vida real. Mas o processo em si de fazer matemática já é importante: ele ensina o pensamento estruturado, o raciocínio lógico, a abstração, e a habilidade de expressar ideias em uma linguagem precisa.\n\nEssas habilidades são valiosas não apenas na ciência e na engenharia, mas em todas as outras disciplinas: política, jornalismo, música e artes, administração, direito, e em tudo mais.",
+      "links": "http://dspace.mit.edu/bitstream/handle/1721.1/5837/AIM-249.pdf"
+    },
+    "cartography": {
+      "title": "Mapas da Terra",
+      "body": "Representar nosso planeta esférico e tridimensional em um mapa bidimensional plano é um desafio: não importa como façamos o mapa, sempre haverá alguma distorção, esticando ou encolhendo algumas regiões. A arte de fazer mapas consiste em preservar a maior quantidade possível de características, dependendo do uso requerido. Ângulos e linhas loxodrômicas para a navegação, tamanhos dos países, distâncias para um ponto etc. É impossível ter todas essas características preservadas em apenas um mapa, o que nos leva a procurar uma solução de compromisso, que também carrega considerações subjetivas. A matemática nos ajuda a entender e fazer melhores mapas para melhor entender o mundo.",
+      "links": "https://en.wikipedia.org/wiki/Map_projection\nhttps://imaginary.org/program/mappae-mundi"
+    }
+  }
+}

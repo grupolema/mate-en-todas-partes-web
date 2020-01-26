@@ -1,0 +1,202 @@
+{
+  "texts": {
+    "@title": {
+      "title": "Her Yer Matematik"
+    },
+    "@idm2020": {
+      "title": "Dünya Matematik Günü 2020"
+    },
+    "@learn_more": {
+      "title": "Dünya Matematik Günü hakkında"
+    },
+    "@description": {
+      "title": "Dünya Matematik Gününü Her Yerde Matematiği keşif ederek kutla"
+    },
+    "@footer_imu": {
+      "title": "Dünya Matematik Günü projesi [Dünya Matematik Birliği (IMU)](https://www.mathunion.org/) tarafından yürütülmektedir."
+    },
+    "@footer_kts": {
+      "title": "IDM websitesi [Klaus Tschira Stiftung](https://www.klaus-tschira-stiftung.de/) desteği ile [IMAGINARY](https://about.imaginary.org) tarafından yaratılmıştır."
+    },
+    "@footer_mathigon": {
+      "title": "Konsept ve bazı metinler [Philipp Legner (Mathigon)](http://mathigon.org/) tarafından yaratılmıştır."
+    },
+    "@footer_license": {
+      "title": "Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) tarafından lisanslıdır."
+    },
+    "@main_site": {
+      "title": "Asıl website"
+    },
+    "@impressum": {
+      "title": "Künye"
+    },
+    "@privacy_policy": {
+      "title": "Gizlilik Politikası"
+    },
+    "epidemics_analysis": {
+      "title": "Salgın Analizi",
+      "body": "Bir salgın başladığında, devamlı yeni vakalar olduğu için durmayacağından korkarız. Matematik ne der? Burada dikkat etmemiz gereken miktar, üreme oranı R_0 , yani her bulaşıcı kişinin enfekte ettiği ortalama birey sayısına karşılık gelen orandır. Eğer R_0 <1 ise, salgın ölür, eğer R_0> 1 ise yayılır. R_0 bilgisi salgını kontrol etme stratejisine rehberlik eder. Özellikle, sınırlı kaynaklar olması durumunda (örneğin herkes için yeterli aşı olmaması) amaç, R_0'ı 1'in altına düşürmek için bu kaynakları kullanmaktır.",
+      "links": "https://www.mathscareers.org.uk/article/number-one-crime-fighter/"
+    },
+    "discovering_core": {
+      "title": "Dünyanın İç Çekirdeğinin Keşfi",
+      "body": "Danimarkalı bir matematikçi olan Inge Lehmann, 1936'da Dünya'nın iç çekirdeğini keşfetti. Danimarka Jeodezi Enstitüsü'nde çalışıyordu ve sismik istasyonlarda kaydedilen uzak depremlerin yarattığı sismik dalga verilerine erişebiliyordu. Gözlenen veriler, o sırada kullanılan Dünya'nın iç modeli ile tutarsızdı. Gözlemlerle uyumlu, çekirdeğin, dış çekirdek ile çevrelenmiş daha ağır bir iç çekirdek olarak iki parçaya ayrıldığı yeni bir model önerdi. Bazı sismik dalgalar demir içerdiği bilinen iç çekirdeğe sıçrar.",
+      "links": "https://www.tandfonline.com/doi/abs/10.4169/college.math.j.44.5.399\nhttp://mpe.dimacs.rutgers.edu/2014/02/19/how-inge-lehmann-discovered-the-inner-core-of-the-earth/"
+    },
+    "patterns_nature": {
+      "title": "Doğanın desenleri",
+      "body": "Desenler doğada nasıl üretilir? Leopar lekeli de kaplan neden çizgili? Tek bir kimyasal reaksiyon-difüzyon modeli tüm hayvan kaplama modellerini üretir. Biri aktivatör, diğeri de inhibitör olan iki kimyasal etkileşir ve dağılır. Model, bir embriyoda gözlenen şekillenmenin, embriyonun reaksiyon-difüzyon başladığı andaki boyutuna ve şekline bağlı olduğunu açıklar. Benzer reaksiyon-difüzyon modelleri, deniz kabuklarının örüntülerini ve ayrıca yarı kurak bölgelerde vejetasyon örüntülerini açıklar. 1952'de Morfogenezinin Kimyasal Temelini öneren Alan Turing olmuştur.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/09/02/how-vegetation-competes-for-rainfall-in-dry-regions-using-math-models-to-make-predictions/ \nhttp://mpe.dimacs.rutgers.edu/2013/08/23/patterns-on-earth/"
+    },
+    "detecting_frauds": {
+      "title": "Sahtekarlık tespiti",
+      "body": "Bir deneyim: etrafta gözünüze çarpan herhangi bir sayıyı alın ve ilk önemli rakamını, yani en soldaki sıfır olmayan rakamı not edin. Örneğin, 23.567 sayısının ilk önemli rakamı 2 olur, 0.00345'inki ise 3. Yaklaşık % 30'u 1 çıkar, ve sadece % 4.5 oranında 9 çıkar. Bu şaşırtıcı fenomen Benford yasası olarak adlandırılır. Olasılıksal bir yasadır. Çoğu zaman, finansal tablolardaki rakamlar bu yasayı takip eder, ve yasaya uymaya özen göstermeden verileri manipüle eden birinin sahtekarlıklarını tespit etmek için bir imkan sağlar.",
+      "links": "http://blog.kleinproject.org/?p=1093\nhttps://www.mathscareers.org.uk/article/number-one-crime-fighter/"
+    },
+    "packing_oranges": {
+      "title": "Portakal paketlemek",
+      "body": "Kürelerin, mesela portakalların en yoğun paketleme yöntemi nedir? Kepler, manavda yapılan olduğunu iddia etmişti: kürelerin merkezleri yüz merkezli kübik örgünün noktalarında bulunmaktadır. Kepler’in varsayımı, ancak 1998’de Thomas Hales tarafından kanıtlanmıştır, ayrıntılar da yayımlanmıştır. Kutu sarsıldığında içindekilerin yerinden oynaması istenmediğinden, nesneleri en yoğun şekilde ambalajlamak endüstride önemlidir.",
+      "links": "http://blog.kleinproject.org/?p=742"
+    },
+    "four_colors_suffice": {
+      "title": "Dört Renk Yeterli",
+      "body": "Ortak bir sınırı paylaşan iki ülkeyi aynı renge boyamadan bir haritayı renklendirmek için en az kaç renk gerek? Üç rengin yetmediği bir harita çizmek kolay. Cevap ise dört: Dört Renk Teoremi 1976'da Kenneth Appel ve Wolfgang Haken tarafından kanıtlanmış ama kanıtı bilgisayar destekli.",
+      "links": "http://blog.kleinproject.org/?p=1205"
+    },
+    "artificial_intelligence": {
+      "title": "Yapay Zeka",
+      "body": "Neden bu kadar başarılı? Geleneksel olarak, bir robotu programlamak, robotun ne yapması gerektiği konusunda talimatlar vermek anlamına geliyordu. Fakat biz insanlara her yapabildiğimiz illa öğretilmiş değil. Kendi kendimize de öğreniyoruz. Daha önce gördüğü tüm kedilerden farklı da olsa, bir çocuk, bir hayvanın kedi olduğunu anlar. Artık robotlar da aynısını yapabiliyor. Yapay zekanın son başarısı, robotların öğrenmeye programlanmış olmasından kaynaklanıyor. Bu öğrenme süreci, büyük veri sayesinde mümkün.",
+      "links": ""
+    },
+    "past_climates": {
+      "title": "Yerkürenin iklimleri",
+      "body": "Dünya, jeolojik verilerden araştırılabileceği gibi, buzullaşma ve çok sıcak iklimler geçirmiştir. Matematik bu geçmiş iklimleri açıklamaya yardımcı olabiliyor. Gerçekten de, Jüpiter'in çekimi dünyanın güneş etrafındaki yörüngesini bozar. Kısa ölçeklerde dünyanın yörüngesindeki değişiklikler periodik olup, periodlar 25 K ile 400 K yıl arasında değişir: bunlar Milankovitch döngüleridir. Buzullar dünya ekseninin eğimi daha büyük olduğunda meydana gelir. Dünyanın gelecekteki iklimlerini tahmin edebilmek için geçmiş iklimleri anlamak şarttır.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/06/05/earths-climate-at-the-age-of-the-dinosaurs/ \nhttp://mpe.dimacs.rutgers.edu/2013/10/04/understanding-earths-past-climate-how-the-mathematical-sciences-can-help-to-inform-the-debate-on-climate-change/"
+    },
+    "collective_motion": {
+      "title": "Toplu hareket",
+      "body": "Hangimiz bir kuş ya da balık sürüsünün hareketinden heyecanlanmadık? Kolektif hareketleri tanımlayan modeller oluşturmak mümkündür. Her bireyin davranışı, belirli sayıda yakın komşu ile etkileşimini düzenleyen basit kurallara uyar. Bu kurallar üç tiptir: bir bireye çok yakın olunduğunda itme, uzak olunduğunda çekim ve komşularla uyum. Örnek olarak, böcek istilalarını kontrol etmek için toplu hareketi anlamak önemlidir.",
+      "links": "http://mpe.dimacs.rutgers.edu/2013/08/30/the-unreasonable-effectiveness-of-collective-animal-behavior/"
+    },
+    "fractals_nature": {
+      "title": "Fraktaller ve Doğa",
+      "body": "Doğanın karmaşık formlarını tanımlamak için yeni bir geometri olan fraktal geometriye ihtiyacımız var. Fraktal nesneler kendi kendine benzerlik özelliğine sahiptir, yani ygitgide daha yakından baktığımızda orijinal nesneye benzeyen yeni ayrıntılar görürüz. Fraktal geometri, bulutlar ve galaksilerden kayalık kıyılara, nehir ağlarına, kar taneleri ve eğrelti otlarından karnabahar gibi birçok bitkiye kadar pek çok doğa şeklini tanımlamak için uygundur. Fraktal nesnelerin boyutu da vardır, üstelik bu boyut tam sayı değildir.",
+      "links": "http://blog.kleinproject.org/?p=306"
+    },
+    "digital_music": {
+      "title": "Dijital Müzik",
+      "body": "Müzik kulaklarımızda titreşen dalgalardan oluşur. Bu dalgalar, bir CD üzerine kısa zaman aralıklarında (genellikle saniyede 44100 kez) örnekler alınarak bir sayı dizisi olarak kayıt edilebilinir. Ses dalgaları, farklı frekanslara sahip birçok dalganın birleşimidir ve bazıları kulaklarımız tarafından algılanmaz. Fourier dönüşümü, karmaşık bir ses dalgasını daha basit dalgalara ayırmamızı sağlar. MP3 gibi ses formatları yalnızca duyulabilir frekansları korur, ve bu sayede dosyalar çok daha küçülür. Matematik olmasaydı iPod, Spotify veya iTunes olmazdı.",
+      "links": "www.theguardian.com/technology/2002/apr/04/internetnews.maths\nwww.mathscareers.org.uk/article/how-mp3-compression-work/\nen.wikipedia.org/wiki/Digital_audio"
+    },
+    "computer_games": {
+      "title": "Bilgisayar Oyunları",
+      "body": "Birçok bilgisayar oyunu 3D grafikleri kullanır. Bunları canladırmak, hareket ettirmek, ayrıca renkleri, ışığı ve gölgeleri oluşturmak için, vektörler, matrisler ve doğrusal cebirle 3D geometrinin pek çok kavramı gerekir. Bilgisayar oyunları su için veya fiziksel nesneleri hareket ettirtmek ve çarpıştırmak için inandırıcı animasyonlar yaratmalıdır. Sıvıyı modellemek için genellikle Navier-Stokes denklemleri gibi uygun kısmi diferansiyel denklemlerin sayısal çözümleri kullanılır. Bilgisayar programları oynanamaz karakterlerin yapay zekasını da modellemek zorundadır.",
+      "links": "www.mathscareers.org.uk/video/advancing-the-digital-arts/\nwww.mathscareers.org.uk/article/get-game/\nnrich.maths.org/1374"
+    },
+    "carbon_dating": {
+      "title": "Karbon yaşı",
+      "body": "Her canlı, Karbon elementi biriktirir. Bu karbon, radyoaktif (Karbon-14) olan çok küçük bir oran da dahil olmak üzere çeşitli farklı izotoplardan oluşur. Bir bitki veya hayvan öldüğünde, yeni Karbon-14 biriktirmeyi bırakır ve mevcut atomlar sabit bir hız ile azalmaya başlar. Bilim insanları, biyolojik kalıntılarda bulunan Karbon-14'ü sahibinin ölüm zamanını hesaplamak için analiz ederler. Bu, arkeolojide çok yararlıdır, çünkü giysi veya kağıt gibi hayvan veya bitki ürünlerinin ilk üretildiği yüzyıl ve hatta on yılı kestirebilirler.",
+      "links": "en.wikipedia.org/wiki/Radiocarbon_dating\nwww.mathscareers.org.uk/article/million-year-old-maths/\nhyperphysics.phy-astr.gsu.edu/hbase/nuclear/cardat.html"
+    },
+    "search_for_alien_life": {
+      "title": "Uzayda Yaşam",
+      "body": "Asal sayılar, sadece dünya değil, tüm evrende sayıların evrensel yapı taşlarıdır. Uzaydan gelen radyo sinyalleri (2, 3, 5, 7, 11, 13,…) asal sayı dizisini içeriyorsa, doğa dışı bir kökene işaret edebilir ve uzayda yaşam ile temasın başlangıç ​​noktası olabilirler. Dünyadan uzaya gönderilen ünlü bir sinyal olan Arecibo Mesajı, 0'lar ve 1'lerden oluşan uzun bir dizeden oluşur. Mesajın uzunluğu, 23 × 73 = 1679, iki asal sayının çarpımıdır ve beklenen uzaylı gökbilimcilerin tüm 0 ve 1’leri kenarları 23 ve 73 olan dikdörtgen bir görüntüye yerleştirmeleridir.",
+      "links": "www.seti.org/seti-institute/project/details/early-seti-project-ozma-arecibo-message\nen.wikipedia.org/wiki/Communication_with_extraterrestrial_intelligence\nxkcd.com/384/"
+    },
+    "big_data": {
+      "title": "Büyük Veri",
+      "body": "Veri heryerde! İnternet'e her göz attığımızda, bir anketi tamamladığımızda ya da alışveriş yaptığımızda yeni veri oluşur. Bilim insanları bir deney gerçekleştirdiklerinde veri toplarlar ve bazen bu veri setleri o kadar büyüktür ki, bunları işlemek için tamamen yeni teknolojiler icat etmeleri gerekir. Verileri anlayabilmek için istatistik lazım. Matematiği kullanarak, her biri kendi başına anlamsız olan büyük bir sayı kümesini, verileri oluşturan sistem hakkında kesin bilgilere dönüştürebiliriz. İstatistik bize bulguların geçerli veya anlamlı olup olmadığını da söyler.",
+      "links": "en.wikipedia.org/wiki/Big_data\nen.wikipedia.org/wiki/Statistics\nwww.mathscareers.org.uk/article/statistically-savvy/"
+    },
+    "predict_weather": {
+      "title": "Hava Durumu",
+      "body": "Hava durumunu tahmin etmek inanılmaz derecede zor bir iştir, geniş hava durumu istasyonları, uydular ve süper bilgisayar ağları kullanıldığında bile. Atmosfer gibi sıvılar Navier-Stokes denklemleri olarak adlandırılan bir dizi kurala uyar. Bu denklemleri doğrudan çözemeyiz, bunun yerine bir tahmin oluşturmak için sayısal simülasyonlar kullanırız. Ancak ölçülen veri ve parametrelerde küçük bir fark bile tahminler üzerinde büyük etki yapabilir. Bu sebeple havanın birkaç haftadan daha önce doğru bir şekilde tahmin edilmesi imkansız hale gelir. Tabii ki modeller gelişmeye devam ediyor...",
+      "links": "https://www.metoffice.gov.uk/weather/learn-about/how-forecasts-are-made/computer-models/history-of-numerical-weather-prediction\nhttp://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
+    },
+    "cosmology": {
+      "title": "Kozmoloji",
+      "body": "Kozmoloji, Büyük Patlama’dan bugüne evrenin evrimini modelliyor ve geleceğini tahmin ediyor. Evrenimiz hızla genişliyor ve genişleme hızı, Einstein'ın alan çekim denklemlerinden çıkan Friedmann Denklemlerini takip ediyor. Evrenin kaderi, evrendeki madde miktarına (= enerji) bağlı ve astronomik gözlemler kara madde ve kara enerji varlığı gösteriyor. Süper bilgisayarlar da Büyük Patlama ardından evreni modellemek için kullanılıyor. Bu bugün “yararlı” gözükmese de gelecekte bir kullanım alanı bulabilir…",
+      "links": "en.wikipedia.org/wiki/Cosmology\nmap.gsfc.nasa.gov/universe/\nwww.damtp.cam.ac.uk/research/gr/public/"
+    },
+    "reading_cd": {
+      "title": "CD ve DVD Okuma",
+      "body": "CD ve DVD'ler, verileri disklerin yüzeyine kazınmış bir dizi mikroskobik “tepe” ve “vadi” olarak depolar. Çizikler ve toz kazınanaları yok edebilir, bu nedenle biraz çizilmiş bir CD'nin bile eksik bilgileri olur. Neyse ki, veriler Reed-Solomon kodları kullanılarak disklerde saklanır. Bu yöntem bir miktar gereğinden fazla bilgi ekler, bilgisayarlar hataları bulmak ve düzeltmek için kalan verileri kullanır. Bu ancak verilerin küçük bir kısmı eksikse çalışır, tamamen çizilmiş bir CD çalamazsınız. CD' ve DVD için kullanılan çapraz serpiştirilmiş Reed-Solomon kodları, sonlu cisimler üzerinde polinomlara dayanmaktadır.",
+      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details"
+    },
+    "rsa": {
+      "title": "Açık Anahtarlı Şifreleme",
+      "body": "e-postalardan kredi kartlarını çevrimiçi kullanmaya kadar internet iletişimini korumak için matematik kullanılır. Bunun için, alıcı bilgisayar çok büyük iki asal sayı seçer ve çarpımlarını yayınlar. Gönderen bilgisayar bu çarpımı mesajı şifrelemek ve alıcıya göndermek için kullanır. Geri gidip mesajı deşifre etmek için, seçilen iki asal gereklidir. Çok büyük sayıları çarpanlarına ayırmak son derece zordur, bu nedenle iki asal sayıyı bildiğinden mesajı yalnızca alıcı okuyabilir. Bu, mucitleri Rivest, Shamir ve Adleman'ın adını taşıyan RSA protokolünün temelidir.",
+      "links": "en.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
+    },
+    "gps": {
+      "title": "Uydu Seyir Sistemi",
+      "body": "Dünya üzerindeki herhangi bir yeri belirlemek için, GPS gibi navigasyon sistemleri, uydulardan son derece kesin zamanlarda gelen sinyalleri kullanır. Bir bilgisayar, gecikmelerini bularak uyduya olan mesafeyi hesaplayabilir ve birkaç uyduya olan mesafesini bilerek alıcının dünya üzerindeki konumunu bulabilir. Kesin olmak için, birçok fiziksel sorunun hesaba katılması gerekir. Görelilik Teorisine göre, zaman farklı gözlemciler için farklı geçer. Etki, günlük yaşam için küçük ve saptanamaz olsa da, dikkate alınmazsa GPS alıcıları günde 10 km'lik hata yaparlar!",
+      "links": "www.math.tamu.edu/~dallen/physics/gps/gps.htm\nwww.mathscareers.org.uk/article/get-lost/"
+    },
+    "rockets": {
+      "title": "Roket ve Uydular",
+      "body": "Havacılık endüstrisinin pek çok zorluğu vardır. Uzaya giderken, itme kuvveti için roketlerin yakıt yakması gereklidir. Daha fazla yakıt bir roketi daha güçlü yapar ama yanarken ağırlığı azalmasına rağmen roketi daha ağır hale de getirir ... Tsiolkovsky roket denklemi bu kısıtlamaları belirler. Roketlerin ve uyduların uzaydaki hareketi, diferansiyel denklemler ve küresel geometri ile tanımlanan yörüngelerle yerçekimi tarafından yönetilir. Uzayda iletişim, gürültü, mesafe ve güvenilmezlik sorunları oluşturur ... matematiksel kodlar verilerin bozulmadan iletilmesine yardımcı olur. Roket bilimi değil, matematik!",
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+    },
+    "finance_banking": {
+      "title": "Finans ve Bankacılık",
+      "body": "Finansal matematikte, borsacılar, bir şirkette hisse, petrol ve altın gibi emtialar veya fiyatları başka şeylerin değişiminden türetilen “sanal” mallar olan türevleri satın alabilir veya satabilirler. Finansal analizci, daha iyi karar vermelerine yardımcı olacak birçok farklı matematiksel araca sahiptir; tarihi ekonomik verileri analiz etmek için istatistiksel modeller veya finansal piyasaların davranışlarını tahmin edebilen olasılık ve stokastik analiz gibi.",
+      "links": "plus.maths.org/content/what-financial-mathematics\nhttps://www.mathscareers.org.uk/article/randomness-stock-market/\nhttps://www.mathscareers.org.uk/article/selling-the-future/"
+    },
+    "internet_phones": {
+      "title": "İnternet ve Telefonlar",
+      "body": "Hem internet hem de telefon hatları, kullanıcıların veri alışverişi yapmalarını sağlayan devasa bir ağ oluşturur. Tüm kullanıcılar, belirli bir kapasiteye sahip sayısız bağlantı ile bağlıdır. Şebeke operatörleri, herhangi bir bağlantının kapasitesini aşmadan gönderici ve alıcıyı bağlamak için bir yol bulmak zorundadır. Telefon görüşmelerinde güvenilir bir hizmet sağlamak için sıra teorisinin matematiği ve Poisson süreçlerini kullanan matematiksel modeller kullanılır. İnternet bağlantıları için paket santralı yöntemi kullanılır: tüm veriler bağımsız olarak iletilen küçük “paketlere” ayrılır.",
+      "links": "www.ams.org/notices/199808/paxson.pdf\nblog.wolfram.com/2013/03/21/the-mathematics-of-queues/\nen.wikipedia.org/wiki/Packet_switching\nmathigon.org/course/graph-theory"
+    },
+    "gambling_betting": {
+      "title": "Kumar ve Bahis",
+      "body": "Kumar ne olursa olsun kötü bir fikir - gazinolar ve bahisçiler matematik bilir ve oyunların ve bahislerin olasılıklarını her zaman uzun vadede kazanacaklarını garanti edecek şekilde ayarlayabilirler. Bir sonraki zar atışını veya rulet numarasını tahmin etmek için olasılık teorisi kullanmak mümkün olmasa da, 1000 zar atışında neler olabileceğini Büyük Sayılar Yasası ile doğru bir şekilde tahmin edebilirsiniz. % 49'luk bir kazanma olasılığı bile “ev” e büyük kazançlar sağlamak için yeterli bir “avantaj” sağlar.",
+      "links": "mathigon.org/course/probability\nen.wikipedia.org/wiki/Gambling_mathematics\nhttp://news.bbc.co.uk/2/hi/programmes/more_or_less/8062277.stm\nhttps://plus.maths.org/content/understanding-uncertainty-football-crazy"
+    },
+    "search_engines": {
+      "title": "Arama Motorları",
+      "body": "Milyarlarca insan interneti her gün kullanıyor, örneğin Google gibi arama motorları ile. En işe yarar web siteleri bulmak ve en üstte görüntülemek için Google, internetteki tüm sayfaları devasa bir matriste temsil ediyor. Bu siteleri bulmak için, doğrusal cebir, olasılık ve grafik teorisi kullanılıyor. Google, verdiği diğer birçok hizmet için de matematik kullanıyor: haritalarda yol tariflerini bulma, Gmail'de spam algılama, Android'de ses tanıma, kitap tararken metin tanıma, YouTube videolarını sıkıştırma, görüntülerde yüz algılama veya metin tercüme etme.",
+      "links": "www.ams.org/samplings/feature-column/fcarc-pagerank\nhttp://static.googleusercontent.com/media/research.google.com/en//pubs/archive/38331.pdf"
+    },
+    "enigma": {
+      "title": "Enigma'yı kırmak",
+      "body": "İkinci dünya savaşı sırasında, Alman ordusu gizli mesajları kodlamak için Enigma'yı kullandı. Enigma'yı kullanarak metin şifrelediğinizde, alfabedeki harfler bir dizi rotor kullanılarak tekrar tekrar \"karıştırılır\". Bir harf yazdıktan sonra, bu rotorlar hareket eder, böylece bir dahaki sefere tüm harfler farklı şekilde karıştırılır. Birkaç özelliği daha eklediğimizde, gizli mesajların şifrelenebileceği 150 trilyondan fazla olası yol elde edilir. Herşeye rağmen, ingiliz matematikçi Alan Turing, ilk bilgisayarlardan biri olan Bombe'yi inşa ederek Enigma'yı kırmayı başardı.",
+      "links": "en.wikipedia.org/wiki/Cryptanalysis_of_the_Enigma\nplus.maths.org/content/exploring-enigma"
+    },
+    "air_traffic": {
+      "title": "Hava Trafiği",
+      "body": "Her gün yaklaşık 50.000 ticari havayolu uçuşu var. Tüm uçaklar, tüm bagajlar, tüm mürettebat ve yolcular doğru zamanda doğru yerde olmalı. En önemlisi, işlek havaalanlarından herhangi birine varırken uçaklar çarpışamaz. Bu inanılmaz karmaşık bir lojistik güçlüktür, matematik ve yöneylem araştırması olmadan da imkansızdır. Ayrıca, her havayolu, uçaklarının mümkün olan en iyi rotaları seçtiği ve hiçbir uçağın boşta, boş veya hizmet dışı olmadığı daha verimli bir ağ oluşturarak tasarruf etmek ister. Bunlar da çizge kuramından algoritmalar kullanılarak yapılabilir.",
+      "links": "https://www.mathscareers.org.uk/article/aircraft-scheduling/\nhttps://mathigon.org/course/graph-theory/introduction"
+    },
+    "wildfire_modelling": {
+      "title": "Kontrol Edilemeyen Yangınlar",
+      "body": "Orman yangınları birçok ekosistemin doğal bir parçası olsa da insanlar için çok tehlikeli olabilirler. İtfaiyeciler yangını modellemek ve ilerleyişini öngörmek için matematiksel simülasyonlar kullanabiliyorlar. Bu simülasyonlar değişen bitki örtüsü, ısı ve nem, rüzgar, tepeler ve değişken oksijen kaynağını hesaba katmak zorunda olup ileri matematik ve akışkanlar mekaniği gerektirmektedir.",
+      "links": "www.mathscareers.org.uk/article/line-fire/\nwww.fs.fed.us/pnw/pubs/journals/pnw_2004_costa001.pdf"
+    },
+    "mri_tomography": {
+      "title": "MR ve Tomografi",
+      "body": "MR tarayıcıları, farklı yönlerden sayısız 2 boyutlu “anlık görüntü” alarak insan vücudunun 3 boyutlu görüntülerini oluşturabilir. Bu anlık görüntüleri kullanarak orijinal 3 boyutlu modeli geri elde etme işlemine tomografi denir ve Radon Dönüşümleri gibi gelişmiş matematik olmadan yapılamaz. Matematik tam anlamıyla hayat kurtarıyor.",
+      "links": "https://plus.maths.org/content/saving-lives-mathematics-tomography\nhttps://www.mathscareers.org.uk/article/medical-imaging-mathematics/"
+    },
+    "glacier_melting": {
+      "title": "Buzul Erimesi",
+      "body": "Kutup buzullarının erimesi küresel deniz seviyesini ve iklimi etkiler. Ne yazık ki, yukarıdan uydu görüntüleri, tüm buz kalkanının durumu veya erimelerinin altında yatan süreçler hakkında sınırlı bilgi vermektedir. Olasılık ve istatistik, örneğin buz kalınlığı ve bileşimi gibi çevresel verileri analiz etmek için kullanılır. Diferansiyel denklemler ve termodinamik kullanan matematiksel modeller rüzgar, deniz buzu, okyanus akıntıları ve ısı transferinin etkileşimini anlamaya yardımcı oluyor.",
+      "links": "https://plus.maths.org/content/maths-and-climate-change-melting-arctic\nhttp://www.ams.org/notices/200905/tx090500562p.pdf\nhttps://www.mathscareers.org.uk/article/taking-earths-temperature/\nhttps://imaginary.org/program/future-of-glaciers-the-module"
+    },
+    "rollercoaster": {
+      "title": "Lunapark Treni Tasarımı",
+      "body": "Bir hız treni tasarlamak kolay iş değil: heyecan verici olacak ama sarsıntısı olmayacak, hem hızlı olacak hem frenleri iyi tutacak, ve de en önemlisi güvenli olacak. Matematik, tren hız kazandıkça etkileyen kuvvetleri ve bu kuvvetleri desteklemek için gereken yapısal desteği hesaplamak için kullanılabilir. Matematiksel denklemler ve analiz, döngüler, \"tirbuşonlar\" ve diğer birçok özellik de dahil olmak üzere pürüzsüz bir parkur hesaplamak için kullanılabilir.",
+      "links": "https://www.mathscareers.org.uk/article/twist-shout/\nhttps://www.maa.org/press/periodicals/loci/joma/design-of-a-thrilling-roller-coaster-introduction-to-the-project"
+    },
+    "problem_solving": {
+      "title": "Matematik için Matematik",
+      "body": "Matematiğin gerçek yaşama uygulamaları anlata anlata bitmez. Ancak matematik yapmak kendi başına da çok önemli ve anlamlı bir süreçtir: analitik düşünce, mantıksal akıl yürütme, soyutlama ve fikirleri kesin bir dilde ifade etme becerisi öğretir. Bu beceriler sadece bilim ve mühendislikte değil, siyasette, gazetecilikte, müzikte ve sanatta, yönetimde, hukukta ve diğer tüm disiplinlerde değerlidir. Rasyonel iletişim geliştirdiğinden, insan ilişkilerine katkısı vardır. Ve de sanat gibi, insanın insan kalması, insanın kendiyle başbaşa kalması için bir hediyedir.",
+      "links": "http://dspace.mit.edu/bitstream/handle/1721.1/5837/AIM-249.pdf"
+    },
+    "cartography": {
+      "title": "Dünya haritaları",
+      "body": "3 boyutlu Küremizi 2 boyutlu bir harita üzerinde göstermek ciddi bir zorluktur: nasıl bir harita yaparsak yapalım, her zaman bazı bölgeleri uzatan veya sıkıştıran bir bozulma olmak zorundadır. Harita yapımı, gerekli kullanıma bağlı olarak mümkün olduğunca çok özelliği korumaya çalışır: seyir açıları ve hatları, ülke büyüklükleri, bir noktaya olan mesafeler, vb. Tüm özellikleri tek bir haritada buluşturmak imkansızdır, ve öznel gereksinimleri göz önünde bulunduran orta yollar bulmak gerekir. Matematik, haritaları daha iyi düşünerek ve yaparak, dünyayı daha iyi anlamıza yardımcı olur.",
+      "links": "https://en.wikipedia.org/wiki/Map_projection\nhttps://imaginary.org/program/mappae-mundi"
+    }
+  }
+}

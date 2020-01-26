@@ -121,12 +121,12 @@
     "reading_cd": {
       "title": "Lire des CDs et des DVDs",
       "body": "Les CD et les DVD stockent les données sous la forme d'une série de «collines» et de «vallées» microscopiques gravées à la surface des disques. Les rayures et la poussière peuvent détruire la gravure, donc un CD légèrement rayé devrait avoir des informations manquantes. Heureusement, les données sont stockées sur des disques à l'aide de codes Reed-Solomon. Cette méthode ajoute un peu d'informations redondantes, de sorte que les ordinateurs peuvent utiliser les données restantes pour rechercher et corriger les erreurs. Cela ne fonctionne que si une petite partie des données est manquante, vous ne pouvez pas lire un CD complètement rayé. Les codes Reed-Solomon entrelacés utilisés pour les CD et les DVD sont basés sur des polynômes sur des corps finis.",
-      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details\nwww.usna.edu/Users/math/wdj/_files/documents/reed-sol.htm"
+      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details"
     },
     "rsa": {
       "title": "Cryptographie à clé publique",
       "body": "Les mathématiques sont utilisées pour sécuriser les communications Internet, des emails à l'utilisation des cartes de crédit en ligne. Pour ce faire, l'ordinateur récepteur prend deux très grands nombres premiers et publie leur produit. L'ordinateur expéditeur utilise ce produit pour chiffrer le message et l'envoyer au destinataire. Pour revenir en arrière et déchiffrer le message, les deux nombres premiers originaux sont nécessaires. Il est extrêmement difficile de factoriser de très grands nombres, donc seul le récepteur peut lire le message car il connaît les deux nombres premiers originaux. C'est la base du protocole RSA, du nom de ses inventeurs Rivest, Shamir et Adleman.",
-      "links": "www.claymath.org/posters/primes/\nen.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
+      "links": "en.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
     },
     "gps": {
       "title": "Système GPS",
@@ -136,7 +136,7 @@
     "rockets": {
       "title": "Fusées et satellites",
       "body": "L'industrie aérospatiale a de nombreux défis. Pour atteindre l'espace, les fusées ont besoin de brûler du carburant pour la poussée. Plus de carburant rend une fusée plus puissante, mais la rend également plus lourde, bien que le poids du carburant diminue à mesure qu'il brûle... L'équation de Tsiolkovsky pour la fusée définit ces contraintes. Le mouvement des fusées et des satellites dans l'espace est régi par la gravité, avec des trajectoires décrites par des équations différentielles et une géométrie sphérique. Les communications dans l'espace posent des problèmes de bruit, de distance, et de manque de fiabilité... Les codes correcteurs d’erreurs aident à transmettre des messages non corrompus. Ce n'est pas du génie, ce sont des mathématiques!",
-      "links": "exploration.grc.nasa.gov/education/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
     },
     "finance_banking": {
       "title": "Finance et systèmes bancaires",

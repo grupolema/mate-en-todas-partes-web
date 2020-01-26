@@ -111,7 +111,7 @@
     "predict_weather": {
       "title": "Predicting the weather",
       "body": "Predicting the weather is an incredibly difficult task, even using an extensive network of weather stations, satellites, and supercomputers.\n\nFluids like the atmosphere follow a set of rules called the Navier-Stokes equations. We can't solve these equations directly, instead we use numeric simulations to create a forecast. \n\nBut even tiny differences in measured data and parameters can have great effect on these predictions. This makes impossible to accurately predict the weather more than a few weeks in advance, but models keep improving...",
-      "links": "http://www.metoffice.gov.uk/learning/making-a-forecast/history-of-numerical-weather-prediction\nhttp://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
+      "links": "https://www.metoffice.gov.uk/weather/learn-about/how-forecasts-are-made/computer-models/history-of-numerical-weather-prediction\nhttp://plus.maths.org/content/os/latestnews/sep-dec04/nwp/index\nhttp://www.mathscareers.org.uk/article/keep-weather-eye/\nhttp://www.mathscareers.org.uk/article/measuring-the-weather/"
     },
     "cosmology": {
       "title": "Cosmology",
@@ -121,12 +121,12 @@
     "reading_cd": {
       "title": "Reading CDs and DVDs",
       "body": "CDs and DVDs store data as a series of microscopic “hills” and “valleys” engraved in the surface of the discs. Scratches and dust can destroy the engraving, so a slightly scratched CD should have missing information. Fortunately, data is stored on discs using Reed-Solomon codes. This method adds a bit of redundant information, so computers can use the remaining data to find and correct errors. This only works if a small part of the data is missing, you can’t play a completely scratched CD. Cross-interleaved Reed-Solomon codes used for CDs and DVDs are based on polynomials over finite fields.",
-      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details\nwww.usna.edu/Users/math/wdj/_files/documents/reed-sol.htm"
+      "links": "en.wikipedia.org/wiki/Compact_disc#Physical_details"
     },
     "rsa": {
       "title": "Public Key Cryptography",
       "body": "Mathematics is used to secure internet communications, from emails to using credit cards online. To do so, the receiving computer takes two very large prime numbers and publishes their product. The sending computer uses this product to encipher the message and send it to the receiver. To go backwards and decipher the message, the two original primes are needed. It is extremely hard to factorise very large numbers, so only the receiver can read the message since it knows the two original primes. This is the basis of the RSA protocol, named after its inventors Rivest, Shamir and Adleman.",
-      "links": "www.claymath.org/posters/primes/\nen.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
+      "links": "en.wikipedia.org/wiki/RSA_(algorithm)\nplus.maths.org/content/safety-numbers\nmathigon.org/course/divisibility"
     },
     "gps": {
       "title": "Satellite Navigation",
@@ -136,7 +136,7 @@
     "rockets": {
       "title": "Rockets and Satellites",
       "body": "Aerospace industry has many challenges. To reach space, rockets need fuel to burn for thrust. More fuel makes a rocket more powerful, but it also makes it heavier, although the weight of fuel decreases as it burns... Tsiolkovsky rocket equation sets these constraints. The motion of rockets and satellites in space is governed by gravity, with trajectories described by differential equations and spherical geometry. Communications in space pose problems of noise, distance, unreliablity... mathematical codes help to transmit the data without corruption. It's not rocket science, it's mathematics!",
-      "links": "exploration.grc.nasa.gov/education/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
     },
     "finance_banking": {
       "title": "Finance and Banking",

@@ -136,10 +136,10 @@
     "rockets": {
       "title": "Cohetes y satélites",
       "body": "La industria aeroespacial tiene muchos desafíos. Para llegar al espacio, los cohetes necesitan combustible que al quemarse proporciona empuje. Más combustible hace que un cohete sea más potente, pero también lo hace más pesado, aunque el peso del combustible disminuye a medida que se quema ... La ecuación de Tsiolkovsky para los cohetes establece estas restricciones. El movimiento de cohetes y satélites en el espacio se rige por la gravedad, con trayectorias descritas por ecuaciones diferenciales y geometría esférica. Las comunicaciones en el espacio plantean problemas de ruido, distancia, falta de fiabilidad... los códigos matemáticos ayudan a transmitir los datos sin que se corrompan. ¡No es ciencia-ficción, son matemáticas!",
-      "links": "en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
+      "links": "https://www.grc.nasa.gov/WWW/K-12/rocket/rktpow.html\nen.wikipedia.org/wiki/Tsiolkovsky_rocket_equation\nen.wikipedia.org/wiki/Error_detection_and_correction#Deep-space_telecommunications\nwww.mathscareers.org.uk/article/escape-velocities/"
     },
     "finance_banking": {
-      "title": "Fnanzas y banca",
+      "title": "Finanzas y banca",
       "body": "En matemática financiera, los comerciantes pueden comprar o vender acciones de una empresa, productos como el petróleo y el oro, o derivados, que son bienes \"virtuales\" cuyos precios se derivan del cambio de otras cosas.\nLos analistas financieros tienen muchas herramientas matemáticas diferentes para ayudarlos a tomar mejores decisiones, por ejemplo, modelos estadísticos para analizar datos económicos históricos, o cálculo de probabilidad y estocástico para predecir el comportamiento de los mercados financieros.",
       "links": "plus.maths.org/content/what-financial-mathematics\nhttps://www.mathscareers.org.uk/article/randomness-stock-market/\nhttps://www.mathscareers.org.uk/article/selling-the-future/"
     },
